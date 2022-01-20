@@ -10,3 +10,4 @@ scikit-learn==0.24.2
 matplotlib==3.3.4
 jupyterlab==3.0.16
 nltk==3.6.2
+indic-nlp-library==0.81
