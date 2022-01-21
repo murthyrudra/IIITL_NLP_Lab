@@ -8,6 +8,11 @@ Create a new `conda` environment with `python 3.9`
 conda create -n nlplab python=3.9
 ```
 
+Activate the new conda environment
+```
+conda activate nlplab
+```
+
 Install the required packages specified in `requirements.txt`
 ```
 pip install -r requirements.txt 
