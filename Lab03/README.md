@@ -3,9 +3,9 @@
 ## Data Sharing
 
 Before we move on, an important disclaimer:
-These dataset have not been created by us (the "Teachers") and we do not claim any copyright on it. However, the original creators of these datasets have released this for the purpose of research. **We are only using it for teaching the importance and the task of NER itself.**<br/>
+These datasets have not been created by us (the "Teachers" of this class) and we do not claim any copyright on it. However, the original creators of these datasets have released this for the purpose of research. **We are only using it for teaching the importance- and the task of NER itself.**<br/>
 
-**Please be aware that you are not allowed to re-create, re-share, or re-purpose the data (or parts of it) resulting into any kind of commercial gains. Please also be aware that if you publish anything based on these datasets, you have to cite the orginial creators of the dataset.** <br/>
+**Please be aware that you are not allowed to re-create, re-share, or re-purpose the data (or parts of it) resulting into any kind of commercial gains. Please also be aware that if you publish anything based on these datasets, you MUST CITE the orginial creators of the dataset.** <br/>
 
 Let us now move on to the dataset, if the disclaimer shared above is clear.
 ## Link to data
