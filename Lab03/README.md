@@ -40,3 +40,5 @@ ta.tar.gz -> Tamil NER Data<br/>
 te.tar.gz -> Telugu NER Data<br/>
 tr.zip -> Turkish NER Data<br/>
 zh.zip -> Chinese NER Data<br/>
+
+You are required to choose only ONE language as you dataset for the task. Further instructions will follow.
