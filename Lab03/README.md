@@ -3,7 +3,7 @@
 ## Data Sharing
 
 Before we move on, an important disclaimer:
-These datasets have not been created by us (the "Teachers" of this class) and we do not claim any copyright on it. However, the original creators of these datasets have released this for the purpose of research. **We are only using it for teaching the importance- and the task of NER itself.**<br/>
+These datasets have not been created by us (the "Teachers" of this class) and we do not claim any copyright on it. However, the original creators of these datasets have released this for the purpose of research. **We are only using it for teaching the importance- and the task- of NER itself.**<br/>
 
 **Please be aware that you are not allowed to re-create, re-share, or re-purpose the data (or parts of it) resulting into any kind of commercial gains. Please also be aware that if you publish anything based on these datasets, you MUST CITE the orginial creators of the dataset.** <br/>
 
@@ -15,8 +15,8 @@ Let us now move on to the dataset, if the disclaimer shared above is clear.
 
 ### Dataset Description
 
-* Some data has been acquired from a recent shared task (the files with .zip extension) and can be used as-it-is for the NER task.
-* Some data has been acquired from the WikiANN (sometimes known as PAN-X) dataset and have a langauge identifier present with the tokens. You need to make sure that the language identifier is not passed in the model training as you will be training a monolingual NER model, i.e., an NER model for a Single Language.
+* Some data has been acquired from a recent shared task (the files with .zip extension) and can be used as-it-is for the NER task. Ref.: MultiCoNER Shared Task 2022.
+* Some data has been acquired from the WikiANN (sometimes known as PAN-X) dataset and have a langauge identifier present with the tokens (the files with the tar.gz extension). You need to make sure that the language identifier is not passed in the model training as you will be training a monolingual NER model, i.e., an NER model for a Single Language.
 
 Here is a description for the files on the folder link shared:
 
