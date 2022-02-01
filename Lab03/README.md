@@ -15,28 +15,30 @@ Let us now move on to the dataset, if the disclaimer shared above is clear.
 * Some data has been acquired from the WikiANN (sometimes known as PAN-X) dataset and have a langauge identifier present with the tokens (the files with the tar.gz extension). You need to make sure that the language identifier is not passed in the model training as you will be training a monolingual NER model, i.e., an NER model for a Single Language.
 
 Here is a description for the files on the folder link shared:
+| Filename  | Description          |
+| --------- |---------------------:|
+| bn.zip    | `Bengali NER Data`   |
+| de.zip    | `German NER Data`    |
+| en.zip    | `English NER Data`   |
+| es.zip    | `Spanish NER Data`   |
+| fa.zip    | `Farsi NER Data`     |
+| gu.tar.gz | `Gujarati NER Data`  |
+| hi.zip    | `Hindi NER Data`     |
+| kn.tar.gz | `Kannada NER Data`   |
+| ko.zip    | `Korean NER Data`    |
+| ml.tar.gz | `Malayalam NER Data` |
+| mr.tar.gz | `Marathi NER Data`   |
+| ne.tar.gz | `Nepali NER Data`    |
+| nl.zip    | `Dutch NER Data`     |
+| or.tar.gz | `Oriya NER Data`     |
+| pa.tar.gz | `Punjabi NER Data`   |
+| ru.zip    | `Russian NER Data`   |
+| ta.tar.gz | `Tamil NER Data`     |
+| te.tar.gz | `Telugu NER Data`    |
+| tr.zip    | `Turkish NER Data`   |
+| zh.zip    | `Chinese NER Data`   |
 
-bn.zip -> Bengali NER Data<br/>
-de.zip -> German NER Data<br/>
-en.zip -> English NER Data<br/>
-es.zip -> Spanish NER Data<br/>
-fa.zip -> Farsi NER Data<br/>
-gu.tar.gz -> Gujarati NER Data<br/>
-hi.zip -> Hindi NER Data<br/>
-kn.tar.gz -> Kannada NER Data<br/>
-ko.zip -> Korean NER Data<br/>
-ml.tar.gz -> Malayalam NER Data<br/>
-mr.tar.gz -> Marathi NER Data<br/>
-ne.tar.gz -> Nepali NER Data<br/>
-nl.zip -> Dutch NER Data<br/>
-or.tar.gz -> Oriya NER Data<br/>
-pa.tar.gz -> Punjabi NER Data<br/>
-ru.zip -> Russian NER Data<br/>
-ta.tar.gz -> Tamil NER Data<br/>
-te.tar.gz -> Telugu NER Data<br/>
-tr.zip -> Turkish NER Data<br/>
-zh.zip -> Chinese NER Data<br/>
-## Link to data
+### Link to data
 
 * Please [follow this link](https://drive.google.com/drive/folders/19QbfqC-E-LFcAfnRe_DtP_co9m91p_mC?usp=sharing) to get access to the data we have uploaded in a GDrive folder. You will need your IIITL organizational access via GDrive to access the link.
 
