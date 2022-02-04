@@ -1,6 +1,6 @@
-New	B-other	B-other
-Orleans	I-other	I-other
-Mother	I-other	I-other
+New	B-other	O
+Orleans	I-other	O
+Mother	I-other	B-other
 's	I-other	I-other
 Day	I-other	I-other
 Parade	I-other	I-other
@@ -80,8 +80,8 @@ the	O	O
 harsh	O	O
 environment	O	O
 of	O	O
-19th-century	O	B-tvshow
-Ireland	B-geo-loc	I-tvshow
+19th-century	O	O
+Ireland	B-geo-loc	O
 
 RT	O	O
 @1DAsiaCrew	O	O
@@ -164,8 +164,8 @@ night	O	O
 
 Apple	B-product	O
 MacBook	I-product	O
-Pro	I-product	O
-A1278	I-product	O
+Pro	I-product	B-person
+A1278	I-product	I-person
 13.3	I-product	O
 "	I-product	O
 Laptop	I-product	O
@@ -593,7 +593,7 @@ TOMORROW	O	O
 I	O	O
 love	O	O
 you	O	O
-Gus	B-person	B-person
+Gus	B-person	O
 .	O	O
 If	O	O
 we	O	O
@@ -654,7 +654,7 @@ dead	O	O
 hurt	O	O
 in	O	O
 Sacramento	B-geo-loc	B-geo-loc
-park	O	I-geo-loc
+park	O	O
 shooting	O	O
 http://usat.ly/1mO76RU	O	O
 
@@ -720,9 +720,9 @@ Of	O	I-other
 #Aspartame	O	I-other
 "	O	O
 as	O	O
-Mary	B-person	B-person
-Nash	I-person	I-person
-Stoddard	I-person	I-person
+Mary	B-person	O
+Nash	I-person	O
+Stoddard	I-person	O
 talks	O	O
 to	O	O
 June	B-person	B-person
@@ -733,8 +733,8 @@ on	O	O
 http://t.co/mknlmplQ54	O	O
 
 The	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 is	O	O
 the	O	O
@@ -895,7 +895,7 @@ Meeting	O	O
 in	O	O
 Osaka	B-geo-loc	B-geo-loc
 ,	O	O
-Japan	B-geo-loc	O
+Japan	B-geo-loc	B-person
 http://t.co/3QZv6ZHkeP	O	O
 
 In	O	O
@@ -1320,8 +1320,8 @@ the	O	O
 motive	O	O
 behind	O	O
 the	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 incident	O	O
 is	O	O
@@ -1483,8 +1483,8 @@ Night	O	O
 9pm	O	O
 Thursday	O	O
 :	O	O
-Open	O	O
-Mic	O	O
+Open	O	B-person
+Mic	O	I-person
 ,	O	O
 8:30	O	O
 pm	O	O
@@ -1524,7 +1524,7 @@ Jones	I-person	I-person
 .	O	O
 Police	O	O
 say	O	O
-Jones	B-person	B-person
+Jones	B-person	O
 fired	O	O
 after	O	O
 some	O	O
@@ -1573,22 +1573,22 @@ suspected	O	O
 breach	O	O
 http://bit.ly/1RrKiZE	O	O
 
-Bailey	B-person	O
-May	I-person	O
-Steal	B-product	O
-My	I-product	O
-Girl	I-product	B-person
-Bailey	B-person	I-person
-May	I-person	O
-Steal	B-product	O
-My	I-product	O
-Girl	I-product	B-person
-Bailey	B-person	I-person
-May	I-person	O
-Steal	B-product	O
-My	I-product	O
-Girl	I-product	B-person
-Bailey	B-person	I-person
+Bailey	B-person	B-other
+May	I-person	I-other
+Steal	B-product	I-other
+My	I-product	I-other
+Girl	I-product	I-other
+Bailey	B-person	I-other
+May	I-person	I-other
+Steal	B-product	I-other
+My	I-product	I-other
+Girl	I-product	I-other
+Bailey	B-person	I-other
+May	I-person	I-other
+Steal	B-product	I-other
+My	I-product	I-other
+Girl	I-product	I-other
+Bailey	B-person	I-other
 May	I-person	O
 Steal	B-product	O
 My	I-product	O
@@ -1635,8 +1635,8 @@ stressed	O	O
 puts	O	O
 CEO	O	O
 in	O	O
-Hot	O	O
-Seat	O	O
+Hot	O	B-geo-loc
+Seat	O	I-geo-loc
 -	O	O
 http://goo.gl/OATPek	O	O
 #cybersecmonth	O	O
@@ -1677,8 +1677,8 @@ rock	O	O
 ?	O	O
 You'll	O	O
 love	O	O
-Sun	B-musicartist	B-person
-Arcana	I-musicartist	I-person
+Sun	B-musicartist	O
+Arcana	I-musicartist	O
 !	O	O
 Check	O	O
 them	O	O
@@ -1940,7 +1940,7 @@ est	O	O
 vraiment	O	O
 adorable	O	O
 
-Raisa	O	B-person
+Raisa	O	O
 tanggal	O	O
 1	O	O
 november	O	O
@@ -2940,7 +2940,7 @@ night	O	O
 ,	O	O
 @Nadjia_Music	O	O
 and	O	O
-@Jenny_Strand	O	O
+@Jenny_Strand	O	B-person
 !	O	O
 
 @fIyagains	O	O
@@ -2954,7 +2954,7 @@ the	O	O
 ,	O	O
 #Pinterest	B-company	O
 and	O	O
-#Tumblr	B-company	B-company
+#Tumblr	B-company	O
 Notify	O	O
 of	O	O
 Security	O	O
@@ -3073,8 +3073,8 @@ Klein	I-company	I-person
 event	O	O
 today	O	O
 in	O	O
-Homg	B-geo-loc	B-geo-loc
-Kong	I-geo-loc	I-geo-loc
+Homg	B-geo-loc	O
+Kong	I-geo-loc	O
 .	O	O
 (	O	O
 June	O	O
@@ -3182,7 +3182,7 @@ sobrang	O	O
 kalandian	O	O
 .	O	O
 
-Vicky	B-person	B-person
+Vicky	B-person	O
 @	O	O
 La	B-facility	B-facility
 Bella	I-facility	I-facility
@@ -3257,7 +3257,7 @@ in	O	O
 courthouse	O	O
 shooting	O	O
 in	O	O
-Delaware	B-geo-loc	O
+Delaware	B-geo-loc	B-geo-loc
 :	O	O
 WILMINGTON	B-geo-loc	O
 ,	O	O
@@ -3670,7 +3670,7 @@ Meeting	O	O
 in	O	O
 Japan	B-geo-loc	B-geo-loc
 #Jackson	O	I-geo-loc
-#Youngjae	O	O
+#Youngjae	O	I-geo-loc
 http://t.co/u3T50rm74e	O	O
 
 RT	O	O
@@ -3756,8 +3756,8 @@ Cat	B-product	O
 Acrylic	I-product	O
 .	I-product	O
 By	O	O
-Emmeline	B-person	B-company
-Costa-Wagner	I-person	I-company
+Emmeline	B-person	O
+Costa-Wagner	I-person	O
 .	O	O
 Oct-2014	O	O
 .	O	O
@@ -3884,13 +3884,13 @@ ini	O	O
 hari	O	O
 Rabu	O	O
 ,	O	O
-Tanggal	O	B-other
-15	O	I-other
-Bulan	O	I-other
-April	O	I-other
-Tahun	O	I-other
-2015	O	I-other
-Jam	O	I-other
+Tanggal	O	O
+15	O	O
+Bulan	O	O
+April	O	O
+Tahun	O	O
+2015	O	O
+Jam	O	O
 04:46	O	O
 :	O	O
 01	O	O
@@ -4148,8 +4148,8 @@ FCS	B-sportsteam	O
 Cal	I-sportsteam	O
 Poly	I-sportsteam	O
 -	O	O
-Arizona	B-sportsteam	O
-State	I-sportsteam	O
+Arizona	B-sportsteam	B-geo-loc
+State	I-sportsteam	I-geo-loc
 struggled	O	O
 in	O	O
 a	O	O
@@ -4189,9 +4189,9 @@ Customer	O	O
 information	O	O
 stolen	O	O
 in	O	O
-Time	B-company	O
-Warner	I-company	B-person
-Cable	I-company	I-person
+Time	B-company	B-company
+Warner	I-company	I-company
+Cable	I-company	I-company
 data	O	O
 breach	O	O
 http://ift.tt/1PhHt8K	O	O
@@ -4382,8 +4382,8 @@ RT	O	O
 Thursday	O	O
 Morning	O	O
 by	O	O
-James	B-person	B-person
-Gramm	I-person	I-person
+James	B-person	O
+Gramm	I-person	O
 @SusanGilbert	O	O
 @_Akanshagautam	O	O
 @Akanshagautam_	O	O
@@ -5173,7 +5173,7 @@ IF	O	O
 pag	O	O
 maganda	O	O
 si	O	O
-Jan	O	B-person
+Jan	O	O
 agad	O	O
 pwede	O	O
 ako	O	O
@@ -5307,7 +5307,7 @@ Fans	O	O
 in	O	O
 US	B-geo-loc	B-geo-loc
 ,	O	O
-Canada	B-geo-loc	B-person
+Canada	B-geo-loc	B-geo-loc
 ,	O	O
 Mexico	B-geo-loc	O
 can	O	O
@@ -5472,8 +5472,8 @@ Fort	B-facility	B-person
 Hood	I-facility	I-person
 Shooting	O	O
 :	O	O
-Cable	O	B-person
-Networks	O	I-person
+Cable	O	O
+Networks	O	O
 Report	O	O
 :	O	O
 UPDATED	O	O
@@ -5574,8 +5574,8 @@ Truckin	O	O
 |	O	O
 Moldova	B-geo-loc	O
 and	O	O
-El	B-geo-loc	O
-Dorado	I-geo-loc	O
+El	B-geo-loc	B-person
+Dorado	I-geo-loc	I-person
 please	O	O
 put	O	O
 
@@ -5689,7 +5689,7 @@ http://t.co/s5NAHwbRWI	O	O
 
 Breach	O	O
 of	O	O
-Peace	O	B-person
+Peace	O	O
 counter	O	O
 claim	O	O
 defamation	O	O
@@ -6026,8 +6026,8 @@ those	O	O
 affected	O	O
 in	O	O
 the	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 today	O	O
 .	O	O
@@ -6593,7 +6593,7 @@ Swerdlow	I-person	O
 will	O	O
 be	O	O
 in	O	O
-Germany	B-geo-loc	O
+Germany	B-geo-loc	B-geo-loc
 in	O	O
 September	O	O
 !	O	O
@@ -6638,7 +6638,7 @@ RT	O	O
 The	O	O
 Tour	B-other	O
 de	I-other	O
-France	I-other	B-person
+France	I-other	O
 passed	O	O
 thru	O	O
 Monday	O	O
@@ -6710,12 +6710,12 @@ my	O	O
 favor	O	O
 ...	O	O
 (@	O	O
-Los	B-facility	O
-Angeles	I-facility	B-person
-Superior	I-facility	I-person
-Santa	I-facility	I-person
-Monica	I-facility	I-person
-Courthouse	I-facility	O
+Los	B-facility	B-other
+Angeles	I-facility	I-other
+Superior	I-facility	I-other
+Santa	I-facility	I-other
+Monica	I-facility	I-other
+Courthouse	I-facility	I-other
 )	O	O
 http	O	O
 ..."	O	O
@@ -6909,8 +6909,8 @@ terror	O	O
 at	O	O
 Los	B-facility	B-facility
 Angeles	I-facility	I-facility
-International	I-facility	O
-Air	I-facility	O
+International	I-facility	I-facility
+Air	I-facility	I-facility
 ...	O	O
 http://bit.ly/16YmZ5f	O	O
 champagneAK	O	O
@@ -6918,8 +6918,8 @@ champagneAK	O	O
 Deadly	O	O
 Tornadoes	O	O
 ,	O	O
-Floods	O	O
-Fuel	O	O
+Floods	O	B-person
+Fuel	O	I-person
 $4	O	O
 Billion	O	O
 of	O	O
@@ -7083,10 +7083,10 @@ a	O	O
 Bitcoin	B-product	O
 Exchange	O	O
 (	O	O
-Nicole	B-person	B-geo-loc
-Perlroth/New	B-company	I-geo-loc
-York	I-company	I-geo-loc
-Times	I-company	I-geo-loc
+Nicole	B-person	B-product
+Perlroth/New	B-company	I-product
+York	I-company	I-product
+Times	I-company	I-product
 )	O	O
 http://dlvr.it/9LKl4D	O	O
 
@@ -7120,7 +7120,7 @@ in	O	O
 a	O	O
 shooting	O	O
 in	O	O
-Chester	B-geo-loc	B-geo-loc
+Chester	B-geo-loc	O
 last	O	O
 night	O	O
 about	O	O
@@ -7152,15 +7152,15 @@ NBC	B-company	O
 affilate	O	O
 Interview	O	O
 -	O	O
-Michael	B-person	B-person
-Allan	I-person	I-person
-Scott	I-person	I-person
-'s	O	O
-Dark	B-product	O
-Side	I-product	O
-of	I-product	O
-Sunset	I-product	B-tvshow
-Pointe	I-product	I-tvshow
+Michael	B-person	B-other
+Allan	I-person	I-other
+Scott	I-person	I-other
+'s	O	I-other
+Dark	B-product	I-other
+Side	I-product	I-other
+of	I-product	I-other
+Sunset	I-product	I-other
+Pointe	I-product	I-other
 -	O	O
 YouTube	B-company	B-company
 http://t.co/2Xi4wUA6cp	O	O
@@ -7197,8 +7197,8 @@ do	O	O
 NOTHING	O	O
 .	O	O
 
-Tom	B-person	B-person
-Stoppard	I-person	I-person
+Tom	B-person	O
+Stoppard	I-person	O
 to	O	O
 be	O	O
 honoured	O	O
@@ -7409,8 +7409,8 @@ https://t.co/kV7uE58TyC	O	O
 RT	O	O
 @WesternToday	O	O
 :	O	O
-Penn	B-other	B-person
-State	I-other	I-person
+Penn	B-other	O
+State	I-other	O
 professor	O	O
 to	O	O
 speak	O	O
@@ -7443,7 +7443,7 @@ has	O	O
 been	O	O
 revealed	O	O
 that	O	O
-Sony	B-company	O
+Sony	B-company	B-person
 will	O	O
 ...	O	O
 http://t.co/Qvuia4M1WN	O	O
@@ -7489,8 +7489,8 @@ Mothers	B-other	B-other
 Day	I-other	I-other
 Parade	I-other	I-other
 in	O	O
-New	B-geo-loc	O
-Orleans	I-geo-loc	O
+New	B-geo-loc	B-geo-loc
+Orleans	I-geo-loc	I-geo-loc
 http://read.bi/19g9xVq	O	O
 
 RT	O	O
@@ -7546,8 +7546,8 @@ Quran	B-product	O
 :	O	O
 man	O	O
 from	O	O
-#France	B-geo-loc	O
-#Paris	O	O
+#France	B-geo-loc	B-person
+#Paris	O	I-person
 00	O	O
 #jesus	O	O
 #God	O	O
@@ -7616,8 +7616,8 @@ over	O	O
 19	O	O
 wounded	O	O
 in	O	O
-New	B-geo-loc	O
-Orleans	I-geo-loc	O
+New	B-geo-loc	B-geo-loc
+Orleans	I-geo-loc	I-geo-loc
 Mother’s	B-other	O
 Day	I-other	O
 parade	O	O
@@ -7630,13 +7630,13 @@ done	O	O
 America	B-geo-loc	B-geo-loc
 .	O	O
 
-David	B-person	B-person
-Boreanaz	I-person	I-person
+David	B-person	O
+Boreanaz	I-person	O
 &amp;	O	O
 Jaime	B-person	B-person
 Bergman	I-person	I-person
 at	O	O
-Chrysalis	B-other	O
+Chrysalis	B-other	B-geo-loc
 '	I-other	O
 5th	I-other	O
 Annual	I-other	O
@@ -7741,8 +7741,8 @@ HAHA	O	O
 Vendo	O	B-company
 convites	O	O
 para	O	O
-TIM	O	B-person
-Beta	O	I-person
+TIM	O	O
+Beta	O	O
 .	O	O
 Meu	O	O
 WhatsApp	O	O
@@ -7818,8 +7818,8 @@ an	O	O
 exclusive	O	O
 premeiere	O	O
 of	O	O
-Rurouni	B-tvshow	B-tvshow
-Kenshin	I-tvshow	I-tvshow
+Rurouni	B-tvshow	B-person
+Kenshin	I-tvshow	I-person
 trilogy	O	O
 last	O	O
 November	O	O
@@ -7832,12 +7832,12 @@ https://t.co/oA4EBeamgn	O	O
 Win	O	O
 #TacoTuesday	O	O
 with	O	O
-These	O	O
-Garlic	O	O
-Shrimp	O	O
+These	O	B-person
+Garlic	O	I-person
+Shrimp	O	I-person
 and	O	O
-Avocado	O	O
-Tacos	O	O
+Avocado	O	B-person
+Tacos	O	I-person
 https://t.co/ZhN43rcqDo	O	O
 https://t.co/V4xMnjh7yP	O	O
 
@@ -7886,8 +7886,8 @@ disability	O	O
 center	O	O
 where	O	O
 the	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 took	O	O
 place	O	O
@@ -8231,8 +8231,8 @@ marshals	O	O
 co-stars	O	O
 @IanMcKellen	O	O
 &amp;	O	O
-Derek	B-person	B-person
-Jacobi	I-person	I-person
+Derek	B-person	O
+Jacobi	I-person	O
 having	O	O
 fun	O	O
 w/	O	O
@@ -8254,7 +8254,7 @@ SS9	O	O
 +	O	O
 0.9	O	O
 off	O	O
-#Mikkelsen	B-person	O
+#Mikkelsen	B-person	B-person
 's	O	O
 pace	O	O
 -	O	O
@@ -8271,10 +8271,10 @@ Box	I-person	I-person
 will	O	O
 be	O	O
 in	O	O
-Cheyenne	B-geo-loc	B-geo-loc
+Cheyenne	B-geo-loc	O
 Wednesday	O	O
 and	O	O
-Denver	B-geo-loc	B-person
+Denver	B-geo-loc	O
 Thursday	O	O
 .	O	O
 Have	O	O
@@ -8675,9 +8675,9 @@ nobody	O	O
 MS	B-movie	O
 Dhoni	I-movie	O
 :	I-movie	O
-The	I-movie	B-product
-Untold	I-movie	I-product
-Story	I-movie	I-product
+The	I-movie	O
+Untold	I-movie	O
+Story	I-movie	O
 is	O	O
 going	O	O
 to	O	O
@@ -8855,7 +8855,7 @@ ST	I-geo-loc	O
 ,	O	O
 Detroit	B-geo-loc	O
 ,	O	O
-MI	B-geo-loc	B-person
+MI	B-geo-loc	O
 (	O	O
 via	O	O
 http://spotcrime.com	O	O
@@ -8969,8 +8969,8 @@ Security	O	O
 breach	O	O
 reported	O	O
 by	O	O
-Kankakee	B-geo-loc	O
-Valley	I-geo-loc	O
+Kankakee	B-geo-loc	B-person
+Valley	I-geo-loc	I-person
 REMC	B-company	O
 http://cryptonews.ca/1RKaaB5	O	O
 pic.twitter.com/9YuDiwZbWO	O	O
@@ -9074,8 +9074,8 @@ between	O	O
 ...	O	O
 http://t.co/NPjuPKOb1V	O	O
 
-Jaylen	B-person	O
-Fryberg	I-person	O
+Jaylen	B-person	B-person
+Fryberg	I-person	I-person
 is	O	O
 the	O	O
 shooter	O	O
@@ -9146,7 +9146,7 @@ May	O	O
 2nd	O	O
 than	O	O
 LeBron	B-person	O
-James	I-person	B-person
+James	I-person	O
 has	O	O
 earned	O	O
 in	O	O
@@ -9184,9 +9184,9 @@ http://t.co/qp6rXjlO4c	O	O
 FRIDAY	O	O
 |	O	O
 @iAMPooki3	O	O
-X	O	O
-@901_EMoney	O	O
-X	O	O
+X	O	B-person
+@901_EMoney	O	I-person
+X	O	I-person
 @_Ummm_JMar	O	O
 X	O	O
 @IamDeuce__	O	O
@@ -9296,8 +9296,8 @@ RT	O	O
 Annual	O	O
 New	B-other	O
 Orleans	I-other	O
-Film	I-other	B-other
-Festival	I-other	I-other
+Film	I-other	O
+Festival	I-other	O
 kicks	O	O
 off	O	O
 tonight	O	O
@@ -9475,7 +9475,7 @@ Lyndon	B-person	B-person
 Johnson	I-person	I-person
 #ALDUBTrust	O	O
 
-Sparks	B-geo-loc	B-person
+Sparks	B-geo-loc	O
 police	O	O
 identify	O	O
 those	O	O
@@ -9921,7 +9921,7 @@ Hotel	I-facility	I-other
 &amp;	I-facility	I-other
 Casino	I-facility	I-other
 in	O	O
-LV	B-geo-loc	O
+LV	B-geo-loc	B-geo-loc
 (	O	O
 May	O	O
 2	O	O
@@ -10041,9 +10041,9 @@ you	O	O
 make	O	O
 it	O	O
 to	O	O
-VR	O	O
-Demo	O	O
-Day	O	O
+VR	O	B-other
+Demo	O	I-other
+Day	O	I-other
 @ComputerHistory	O	O
 on	O	O
 July	O	O
@@ -10157,7 +10157,7 @@ years	O	O
 ago	O	O
 today	O	O
 that	O	O
-Britain	B-geo-loc	O
+Britain	B-geo-loc	B-person
 and	O	O
 France	B-geo-loc	B-person
 declared	O	O
@@ -10247,7 +10247,7 @@ RT	O	O
 The	O	O
 @Rockies	O	O
 select	O	O
-Ryan	B-person	B-person
+Ryan	B-person	O
 McCormick	I-person	O
 in	O	O
 the	O	O
@@ -10297,7 +10297,7 @@ back	O	O
 RT	O	O
 @CaamiCabelloBr	O	O
 :	O	O
-Camila	B-musicartist	B-person
+Camila	B-musicartist	O
 on	O	O
 tumblr	B-company	B-company
 (	O	O
@@ -10998,8 +10998,8 @@ working	O	O
 with	O	O
 FBI	B-other	O
 ,	O	O
-Secret	B-other	O
-Service	I-other	O
+Secret	B-other	B-person
+Service	I-other	I-person
 on	O	O
 data	O	O
 breach	O	O
@@ -11095,7 +11095,7 @@ Stone	I-musicartist	O
 Roses	I-musicartist	O
 w/Fool	B-product	O
 's	I-product	O
-Gold	I-product	B-person
+Gold	I-product	O
 ...	O	O
 http://t.co/z451qMesdN	O	O
 
@@ -11122,8 +11122,8 @@ for	O	O
 Security	O	O
 Breach	O	O
 ,	O	O
-Releases	O	O
-Fix	O	O
+Releases	O	B-person
+Fix	O	I-person
 http://mashable.com/2014/01/09/snapchat-update-2/#:eyJzIjoidCIsImkiOiJfenc3dnVkODZlZ2w3NGlxZmxyaGpuXyJ9	O	O
 …	O	O
 via	O	O
@@ -11299,7 +11299,7 @@ Sat	O	O
 1	O	O
 http://t.co/e8EbSlqdsL	O	O
 
-Williams	B-person	B-person
+Williams	B-person	O
 is	O	O
 running	O	O
 up	O	O
@@ -11809,7 +11809,7 @@ http://t.co/fnyCddFVlz	O	O
 Here	O	O
 you	O	O
 go	O	O
-Esri	O	O
+Esri	O	B-person
 ,	O	O
 have	O	O
 500	O	O
@@ -11975,8 +11975,8 @@ Bitcoin	B-product	O
 Exchange	O	O
 "	O	O
 by	O	O
-NICOLE	B-person	B-person
-PERLROTH	I-person	I-person
+NICOLE	B-person	O
+PERLROTH	I-person	O
 via	O	O
 NYT	B-company	O
 http://ift.tt/1aP6091	O	O
@@ -12093,7 +12093,7 @@ Father	B-other	B-other
 's	I-other	I-other
 Day	I-other	I-other
 is	O	O
-June	O	B-person
+June	O	O
 21st	O	O
 .	O	O
 Your	O	O
@@ -12161,7 +12161,7 @@ Chilies	B-facility	O
 TGI	B-facility	O
 Fridays	I-facility	O
 ,	O	O
-Ruby	B-facility	B-geo-loc
+Ruby	B-facility	O
 Tuesday	I-facility	O
 ,	O	O
 Hooters	B-facility	O
@@ -12293,7 +12293,7 @@ RT	O	O
 The	O	O
 Week	O	O
 In	O	O
-Technology	O	O
+Technology	O	B-geo-loc
 ,	O	O
 Aug	O	O
 .	O	O
@@ -12398,8 +12398,8 @@ http://t.co/IgeUwC4iKz	O	O
 China-linked	O	O
 hackers	O	O
 breach	O	O
-American	B-company	O
-Airlines	I-company	O
+American	B-company	B-geo-loc
+Airlines	I-company	I-geo-loc
 ,	O	O
 Sabre	B-company	O
 systems	I-company	O
@@ -12569,7 +12569,7 @@ today	O	O
 The	O	O
 Touch	O	O
 of	O	O
-Jesus	O	B-person
+Jesus	O	O
 in	O	O
 His	O	B-geo-loc
 Prayers	O	I-geo-loc
@@ -12580,8 +12580,8 @@ Tickets	O	O
 released	O	O
 for	O	O
 '	O	O
-Big	B-other	B-person
-Ben	I-other	I-person
+Big	B-other	O
+Ben	I-other	O
 and	I-other	O
 Back	I-other	O
 '	O	O
@@ -12672,9 +12672,9 @@ SO	O	O
 be	O	O
 on	O	O
 the	O	O
-@Scotlandteam	O	B-other
-Oor	O	I-other
-Roddy	O	I-other
+@Scotlandteam	O	O
+Oor	O	O
+Roddy	O	O
 .	O	O
 https://t.co/LTosl6268x	O	O
 
@@ -12772,7 +12772,7 @@ injured	O	O
 in	O	O
 shooting	O	O
 at	O	O
-Manchester	B-geo-loc	O
+Manchester	B-geo-loc	B-geo-loc
 ,	O	O
 Ill	B-geo-loc	O
 .,	O	O
@@ -12907,13 +12907,13 @@ ini	O	O
 hari	O	O
 Minggu	O	O
 ,	O	O
-Tanggal	O	B-other
-12	O	I-other
-Bulan	O	I-other
-April	O	I-other
-Tahun	O	I-other
-2015	O	I-other
-Jam	O	I-other
+Tanggal	O	O
+12	O	O
+Bulan	O	O
+April	O	O
+Tahun	O	O
+2015	O	O
+Jam	O	O
 07:36	O	O
 :	O	O
 01	O	O
@@ -12926,7 +12926,7 @@ September	O	O
 30	O	O
 1933	O	O
 (	O	O
-N34778	O	O
+N34778	O	B-geo-loc
 )	O	O
 KB	O	O
 :	O	O
@@ -13008,8 +13008,8 @@ shooting	O	O
 at	O	O
 Marysville	B-facility	B-facility
 Pilchuck	I-facility	I-facility
-High	I-facility	I-facility
-School	I-facility	I-facility
+High	I-facility	O
+School	I-facility	O
 in	O	O
 WA	B-geo-loc	B-geo-loc
 "	O	O
@@ -13082,9 +13082,9 @@ a	O	O
 story	O	O
 about	O	O
 beautiful	O	O
-$25K	O	O
-Maximillian	B-product	O
-Chair	I-product	O
+$25K	O	B-person
+Maximillian	B-product	I-person
+Chair	I-product	I-person
 .	O	O
 Contact	O	O
 duncan@	O	O
@@ -13149,7 +13149,7 @@ for	O	O
 but	O	O
 I'm	O	O
 taking	O	O
-Jason	B-person	O
+Jason	B-person	B-person
 to	O	O
 the	O	O
 city	O	O
@@ -13421,8 +13421,8 @@ afternoon	O	O
 #Winnipeg	B-geo-loc	O
 #AILYSDisplaced	O	O
 on	O	O
-TFC	B-company	B-other
-Canada	I-company	I-other
+TFC	B-company	O
+Canada	I-company	O
 .	O	O
 
 9	O	O
@@ -13487,7 +13487,7 @@ dead	O	O
 hurt	O	O
 in	O	O
 Sacramento	B-geo-loc	B-geo-loc
-park	O	I-geo-loc
+park	O	O
 shooting	O	O
 http://n.mynews.ly/!EB.BXP6Z	O	O
 via	O	O
@@ -13510,7 +13510,7 @@ started	O	O
 shooting	O	O
 people	O	O
 downtown	O	O
-Savannah	B-geo-loc	B-person
+Savannah	B-geo-loc	O
 what	O	O
 in	O	O
 the	O	O
@@ -13644,8 +13644,8 @@ http://web4co.com/news/3-killed-2-wounded-in-atlanta-shooting-san-francisco-chro
 may	O	O
 occupy	O	O
 the	B-other	O
-White	I-other	B-person
-House	I-other	I-person
+White	I-other	B-facility
+House	I-other	I-facility
 -	O	O
 A	O	O
 vote	O	O
@@ -13749,11 +13749,11 @@ Reich	I-other	O
 RARE	O	O
 postcard	O	O
 "	O	O
-Richard	B-person	B-person
-Wagner	I-person	I-person
-/	O	O
-Festspielhaus	O	O
-Bayreuth	O	O
+Richard	B-person	B-other
+Wagner	I-person	I-other
+/	O	I-other
+Festspielhaus	O	I-other
+Bayreuth	O	I-other
 "	O	O
 !	O	O
 http://t.co/6nkuh8aa37	O	O
@@ -13929,8 +13929,8 @@ his	O	O
 6	O	O
 ...	O	O
 -	O	O
-Fox	O	B-person
-News	O	I-person
+Fox	O	O
+News	O	O
 http://goo.gl/f7Vsn	O	O
 
 #Bridgeport	O	O
@@ -13970,9 +13970,9 @@ shooting	O	O
 What	O	O
 is	O	O
 the	O	O
-Inland	B-other	B-other
-Regional	I-other	I-other
-Center	I-other	I-other
+Inland	B-other	B-facility
+Regional	I-other	I-facility
+Center	I-other	I-facility
 ?	O	O
 |	O	O
 MSNBC	B-company	O
@@ -14048,7 +14048,7 @@ DVR	O	O
 Long	B-tvshow	O
 Road	I-tvshow	O
 to	I-tvshow	O
-Hell	I-tvshow	O
+Hell	I-tvshow	B-geo-loc
 ,	I-tvshow	O
 America	I-tvshow	B-geo-loc
 in	I-tvshow	O
@@ -14368,9 +14368,9 @@ to	O	O
 Life	O	O
 Sc	O	O
 &amp;	O	O
-Towers	O	O
-Bus	O	O
-143	O	O
+Towers	O	B-other
+Bus	O	I-other
+143	O	I-other
 is	O	O
 at	O	O
 Law	O	B-facility
@@ -14388,10 +14388,10 @@ Stop	O	O
 Grant@6th	O	O
 .	O	O
 
-India	B-sportsteam	O
+India	B-sportsteam	B-person
 vs	O	O
-South	B-sportsteam	B-person
-Africa	I-sportsteam	I-person
+South	B-sportsteam	O
+Africa	I-sportsteam	O
 5th	O	O
 ODI	O	O
 Live	O	O
@@ -14455,10 +14455,10 @@ http://bit.ly/20ItC71	O	O
 @ninetythreeee	O	O
 Statewide	O	O
 College	O	O
-Christmas	B-other	B-other
-Party	O	I-other
-Fri	O	I-other
-Dec	O	I-other
+Christmas	B-other	O
+Party	O	O
+Fri	O	O
+Dec	O	O
 18th	O	O
 hosted	O	O
 by	O	O
@@ -14619,7 +14619,7 @@ Police	O	O
 people	O	O
 injured	O	O
 in	O	O
-French	O	B-geo-loc
+French	O	O
 Qu	O	O
 ...	O	O
 http://abcn.ws/1r0Kz9K	O	O
@@ -14821,7 +14821,7 @@ shooting	O	O
 at	O	O
 Marysville	B-facility	B-facility
 Pilchuck	I-facility	I-facility
-High	I-facility	I-facility
+High	I-facility	O
 School	I-facility	O
 :	O	O
 https://www.facebook.com/MarkAnthonyDiBello	O	O
@@ -14934,8 +14934,8 @@ Nitfy50	B-company	O
 towards	O	O
 7550	O	O
 :	O	O
-Mitesh	B-person	B-person
-Thacker	I-person	I-person
+Mitesh	B-person	O
+Thacker	I-person	O
 -	O	O
 https://t.co/TUX7WUsOsM	O	O
 
@@ -15317,7 +15317,7 @@ http://ow.ly/SwaMF	O	O
 IDs	O	O
 released	O	O
 in	O	O
-Forsyth	B-geo-loc	B-geo-loc
+Forsyth	B-geo-loc	O
 shooting	O	O
 spree	O	O
 .	O	O
@@ -15370,8 +15370,8 @@ RT	O	O
 :	O	O
 Aussies	O	O
 !	O	O
-Little	B-musicartist	O
-Mix	I-musicartist	O
+Little	B-musicartist	B-musicartist
+Mix	I-musicartist	I-musicartist
 are	O	O
 performing	O	O
 on	O	O
@@ -15411,8 +15411,8 @@ the	O	O
 2nd	O	O
 season	O	O
 of	O	O
-Scream	B-tvshow	O
-Queens	I-tvshow	O
+Scream	B-tvshow	B-person
+Queens	I-tvshow	I-person
 !	O	O
 https://t.co/Ee1ITGe2Sd	O	O
 
@@ -15559,8 +15559,8 @@ Bartleson	B-person	O
 Betty	I-person	B-person
 J	I-person	I-person
 .:	O	O
-Betty	B-person	B-person
-J	I-person	I-person
+Betty	B-person	O
+J	I-person	O
 .	I-person	O
 Bartleson	I-person	O
 ,	O	O
@@ -15660,7 +15660,7 @@ December	O	O
 Selena	B-musicartist	B-person
 performing	O	O
 at	O	O
-Wild	O	B-facility
+Wild	O	O
 94.9	O	O
 '	O	O
 s	O	O
@@ -15778,9 +15778,9 @@ nice	O	O
 IPL	B-other	O
 2015	I-other	O
 :	O	O
-Royal	B-sportsteam	B-tvshow
-Challengers	I-sportsteam	I-tvshow
-Bangalore	I-sportsteam	I-tvshow
+Royal	B-sportsteam	O
+Challengers	I-sportsteam	O
+Bangalore	I-sportsteam	O
 release	O	O
 new	O	O
 theme	O	O
@@ -16037,8 +16037,8 @@ that	O	O
 fly	O	O
 copy	O	O
 of	O	O
-Django	B-product	B-person
-Ferrari	I-product	I-person
+Django	B-product	O
+Ferrari	I-product	O
 @christiamentalz	O	O
 shot	O	O
 to	O	O
@@ -16199,8 +16199,8 @@ http://t.co/pp8LUea2iw	O	O
 RT	O	O
 @BBTN	O	O
 :	O	O
-Troy	B-person	B-person
-Tulowitzki	I-person	I-person
+Troy	B-person	O
+Tulowitzki	I-person	O
 shows	O	O
 up	O	O
 !	O	O
@@ -16395,8 +16395,8 @@ EDT	O	O
 Show	O	O
 for	O	O
 #NepalRelief	O	O
--Swadesh	B-person	O
-Deepak	I-person	O
+-Swadesh	B-person	B-person
+Deepak	I-person	I-person
 's	O	O
 '	O	O
 Court-Martial	B-product	O
@@ -16407,9 +16407,9 @@ May	O	O
 ,	O	O
 7pm	O	O
 ,	O	O
-Sri	B-facility	O
-Ram	I-facility	O
-Centre	I-facility	O
+Sri	B-facility	B-person
+Ram	I-facility	I-person
+Centre	I-facility	I-person
 ,	O	O
 Mandi	B-facility	B-person
 House	I-facility	I-person
@@ -16599,8 +16599,8 @@ Hofstra	B-sportsteam	O
 http://t.co/X5Y5a3alEZ	O	O
 #BHStateOfMind	O	O
 
-Ka	O	B-person
-O	O	I-person
+Ka	O	O
+O	O	O
 .	O	O
 a	O	O
 .	O	O
@@ -16738,15 +16738,15 @@ BBC	B-company	O
 -	O	O
 VIDEO	O	O
 :	O	O
-Michelle	B-person	B-person
-Obama	I-person	I-person
+Michelle	B-person	O
+Obama	I-person	O
 's	O	O
 funky	O	O
 dance	O	O
 moves	O	O
 :	O	O
-Michelle	B-person	B-person
-Obama	I-person	I-person
+Michelle	B-person	O
+Obama	I-person	O
 danced	O	O
 on	O	O
 stage	O	O
@@ -16910,7 +16910,7 @@ Sunday	O	O
 's	O	O
 game	O	O
 :	O	O
-Gilmore	B-person	B-person
+Gilmore	B-person	O
 ,	O	O
 Brooks	B-person	B-person
 ,	O	O
@@ -17151,7 +17151,7 @@ Facebook	B-company	B-company
 BBC	B-company	O
 News	I-company	O
 -	O	O
-Charleston	B-geo-loc	O
+Charleston	B-geo-loc	B-geo-loc
 shooting	O	O
 :	O	O
 '	O	O
@@ -17238,7 +17238,7 @@ http://t.co/153S0uXngP	O	O
 RT	O	O
 @5SOS1DAlert	O	O
 :	O	O
-Harry	B-musicartist	B-person
+Harry	B-musicartist	O
 being	O	O
 his	O	O
 whale	O	O
@@ -17307,7 +17307,7 @@ x74	O	O
 one	O	O
 https://t.co/AAYoH2zOiw	O	O
 
-Jesus	B-person	B-person
+Jesus	B-person	O
 was	O	O
 God	B-person	B-person
 Himself	O	I-person
@@ -17333,14 +17333,14 @@ Poetry	O	O
 Sunday	O	O
 :	O	O
 '	O	O
-Fox	O	B-person
-Woman	O	I-person
+Fox	O	O
+Woman	O	O
 ,'	O	O
 by	O	O
 Dorothy	B-person	B-person
 Gilbert	I-person	I-person
 |	O	O
-Women	B-other	O
+Women	B-other	B-person
 's	I-other	O
 Voices	I-other	O
 For	I-other	O
@@ -17404,8 +17404,8 @@ nasa	O	O
 gilid	O	O
 .	O	O
 Go	O	O
-Mar	O	O
-Roxas	O	O
+Mar	O	B-sportsteam
+Roxas	O	I-sportsteam
 !	O	O
 
 There	O	O
@@ -17643,10 +17643,10 @@ http://nyti.ms/Knelmn	O	O
 |	O	O
 Photo	O	O
 by	O	O
-J	B-person	O
-.	I-person	O
-Emilio	I-person	B-person
-Florespic	O	I-person
+J	B-person	B-person
+.	I-person	I-person
+Emilio	I-person	I-person
+Florespic	O	O
 .twitter.com/8GTCH4VAsY	O	O
 
 Snapchat	B-company	O
@@ -17808,7 +17808,7 @@ money	O	O
 .	O	O
 Franklin	O	B-person
 ,	O	O
-Benjamin	O	B-person
+Benjamin	O	O
 
 @camerondallas	O	O
 Hi	O	O
@@ -17944,8 +17944,8 @@ shooting	O	O
 at	O	O
 parade	O	O
 in	O	O
-New	B-geo-loc	O
-Orleans	I-geo-loc	O
+New	B-geo-loc	B-geo-loc
+Orleans	I-geo-loc	I-geo-loc
 :	O	O
 reports	O	O
 .	O	O
@@ -17972,9 +17972,9 @@ University	I-facility	I-geo-loc
 ,	O	O
 Flagstaff	B-geo-loc	O
 
-House	B-person	B-person
-Speaker	I-person	I-person
-Brian	I-person	I-person
+House	B-person	O
+Speaker	I-person	O
+Brian	I-person	O
 bosma	I-person	O
 says	O	O
 "	O	O
@@ -18170,7 +18170,7 @@ on	O	O
 refugee	O	O
 crisis	O	O
 :	O	O
-Ljubljana	B-geo-loc	O
+Ljubljana	B-geo-loc	B-person
 ,	O	O
 2	O	O
 November	O	O
@@ -18221,10 +18221,10 @@ http://t.co/ooYDAzQQOZ	O	O
 650,000	O	O
 Affected	O	O
 by	O	O
-JD	B-company	O
-Wetherspoon	I-company	O
-Data	O	O
-Breach	O	O
+JD	B-company	B-other
+Wetherspoon	I-company	I-other
+Data	O	I-other
+Breach	O	I-other
 |	O	O
 http://SecurityWeek.Com	O	O
 http://www.securityweek.com/650000-affected-jd-wetherspoon-data-breach	O	O
@@ -18516,8 +18516,8 @@ insolente	O	O
 RT	O	O
 @Comedypedia	O	O
 :	O	O
-April	B-other	B-person
-Fools	I-other	I-person
+April	B-other	O
+Fools	I-other	O
 http://t.co/j3HoR6mbOX	O	O
 
 @EpicLand_Mx	O	O
@@ -18554,7 +18554,7 @@ https://t.co/VDVPblI7Bz	O	O
 #Xboxone	O	O
 
 Help	O	O
-Ricky	B-person	B-person
+Ricky	B-person	O
 and	O	O
 Co	O	O
 .	O	O
@@ -18734,9 +18734,9 @@ for	O	O
 tomorrow	O	O
 https://t.co/Yf27UGLNbO	O	O
 
-Muhammad	B-person	B-person
-Youssef	I-person	I-person
-Abdulazeez	I-person	I-person
+Muhammad	B-person	O
+Youssef	I-person	O
+Abdulazeez	I-person	O
 Put	O	O
 #Confederateflags	O	O
 back	O	O
@@ -19140,11 +19140,11 @@ http://t.co/DU6oa7yAhk	O	O
 INFINITY	B-musicartist	O
 Sat	O	O
 11th	O	O
-April	O	B-person
+April	O	O
 @	O	O
 The	B-facility	B-facility
 Qube	I-facility	I-facility
-Project	I-facility	O
+Project	I-facility	I-facility
 .	O	O
 Tickets	O	O
 &amp;	O	O
@@ -19176,7 +19176,7 @@ April	O	O
 1-6	O	O
 
 "	O	O
-Sana	O	B-person
+Sana	O	B-other
 may	O	O
 makapagpost	O	O
 ng	O	O
@@ -19218,8 +19218,8 @@ http://Ripardo.com	O	O
 
 Inga	O	O
 &amp;	O	O
-Anush	O	O
-Arshakyans	O	O
+Anush	O	B-person
+Arshakyans	O	I-person
 -	O	O
 Aprelu	O	O
 April	O	O
@@ -19546,10 +19546,10 @@ Paypal	O	O
 )	O	O
 in	O	O
 the	O	O
-June	B-other	B-other
-Ultimate	I-other	I-other
-Cash	I-other	I-other
-Giveaway	I-other	I-other
+June	B-other	O
+Ultimate	I-other	O
+Cash	I-other	O
+Giveaway	I-other	O
 !	O	O
 #giveaways	O	O
 http://t.co/C0XWNdibYE	O	O
@@ -19560,8 +19560,8 @@ RT	O	O
 #ImRulingMyselfOut	O	O
 of	O	O
 climbing	O	O
-Huayna	B-geo-loc	O
-Picchu	I-geo-loc	O
+Huayna	B-geo-loc	B-person
+Picchu	I-geo-loc	I-person
 for	O	O
 a	O	O
 3rd	O	O
@@ -19590,7 +19590,7 @@ goggles	I-product	O
 up	O	O
 for	O	O
 #auction	O	O
-Thu	O	B-person
+Thu	O	O
 ,	O	O
 Sep	O	O
 3rd	O	O
@@ -19639,8 +19639,8 @@ ka	O	O
 Snapchat	B-company	O
 Responds	O	O
 to	O	O
-New	O	O
-Year	O	O
+New	O	B-geo-loc
+Year	O	I-geo-loc
 's	O	O
 Eve	O	O
 Security	O	O
@@ -19690,9 +19690,9 @@ Shooting	O	O
 What	O	O
 Is	O	O
 the	O	O
-Inland	B-other	B-other
-Regional	I-other	I-other
-Center	I-other	I-other
+Inland	B-other	B-facility
+Regional	I-other	I-facility
+Center	I-other	I-facility
 ?	O	O
 http://www.kcentv.com/story/30652163/san-bernardino-shooting-what-is-the-inland-regional-center	O	O
 …	O	O
@@ -19910,8 +19910,8 @@ MTG	B-product	O
 Moderately	I-product	O
 Played	I-product	O
 ,	I-product	O
-English	I-product	B-person
-Regrowth	I-product	I-person
+English	I-product	O
+Regrowth	I-product	O
 3rd	I-product	O
 Edition	I-product	O
 Magic	I-product	O
@@ -19989,13 +19989,13 @@ RT	O	O
 Yung	O	O
 may	O	O
 kaibigan	O	O
-ka	O	B-movie
-na	O	I-movie
-suportado	O	I-movie
-ka	O	I-movie
-pag	O	I-movie
-nagdadrama	O	I-movie
-ka	O	I-movie
+ka	O	B-person
+na	O	I-person
+suportado	O	O
+ka	O	O
+pag	O	O
+nagdadrama	O	O
+ka	O	O
 .	O	O
 
 3	O	O
@@ -20300,7 +20300,7 @@ game	O	O
 is	O	O
 played	O	O
 in	O	O
-June	O	B-geo-loc
+June	O	O
 2016	O	O
 ,	O	O
 so	O	O
@@ -20390,8 +20390,8 @@ Ministry	I-other	O
 of	I-other	O
 Motherhood	I-other	B-geo-loc
 by	O	O
-Pastor	B-person	B-person
-Troy	I-person	I-person
+Pastor	B-person	O
+Troy	I-person	O
 Dorrell	I-person	O
 http://t.co/VPW1l58vQs	O	O
 
@@ -20418,7 +20418,7 @@ Assad	B-person	O
 held	O	O
 talks	O	O
 with	O	O
-Putin	B-person	O
+Putin	B-person	B-person
 in	O	O
 Moscow	B-geo-loc	O
 on	O	O
@@ -20488,8 +20488,8 @@ shoots	O	O
 on	O	O
 the	O	O
 Chicago	B-facility	B-geo-loc
-River	I-facility	O
-Walk	I-facility	O
+River	I-facility	I-geo-loc
+Walk	I-facility	I-geo-loc
 .	O	O
 @…	O	O
 https://instagram.com/p/8MM81kKZZF/	O	O
@@ -20538,8 +20538,8 @@ false-flag	O	O
 assertion	O	O
 about	O	O
 the	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 today	O	O
 .	O	O
@@ -20770,8 +20770,8 @@ Citrus	B-sportsteam	B-geo-loc
 1	O	O
 Southwestern	B-sportsteam	O
 at	O	O
-Victor	B-sportsteam	B-person
-Valley	I-sportsteam	I-person
+Victor	B-sportsteam	B-facility
+Valley	I-sportsteam	I-facility
 ,	O	O
 1	O	O
 
@@ -21108,7 +21108,7 @@ for	O	O
 !	O	O
 Tommy	B-person	O
 and	O	O
-Miho	B-person	O
+Miho	B-person	B-person
 will	O	O
 be	O	O
 in	O	O
@@ -21247,8 +21247,8 @@ RT	O	O
 :	O	O
 Mourinho	B-person	O
 's	O	O
-Post	O	B-person
-Match	O	I-person
+Post	O	O
+Match	O	O
 interview	O	O
 on	O	O
 monday	O	O
@@ -21271,7 +21271,7 @@ he'll	O	O
 assure	O	O
 us	O	O
 that	O	O
-#Islam	B-other	O
+#Islam	B-other	B-person
 is	O	O
 the	O	O
 #ReligionOfPeace	O	O
@@ -21391,7 +21391,7 @@ I	O	O
 look	O	O
 around	O	O
 for	O	O
-Kayden	B-person	B-product
+Kayden	B-person	B-person
 and	O	O
 I	O	O
 finally	O	O
@@ -21559,11 +21559,11 @@ day	O	O
 :)	O	O
 @adamferrara	O	O
 
-Mayweather	O	O
-Akan	O	O
-Pensiun	O	O
-di	O	O
-Bulan	O	O
+Mayweather	O	B-other
+Akan	O	I-other
+Pensiun	O	I-other
+di	O	I-other
+Bulan	O	I-other
 September	O	O
 :	O	O
 Mengingat	O	O
@@ -21699,8 +21699,8 @@ Cisco	B-company	O
 Microsoft	B-company	O
 certifications	O	O
 :	O	O
-Pearson	B-company	B-person
-VUE	I-company	I-person
+Pearson	B-company	B-other
+VUE	I-company	I-other
 says	O	O
 cr	O	O
 ...	O	O
@@ -21732,7 +21732,7 @@ Video	O	O
 :	O	O
 Sunday	O	O
 night	O	O
-Boston	B-geo-loc	B-geo-loc
+Boston	B-geo-loc	B-person
 area	O	O
 forecast	O	O
 http://t.co/v7dE8Kj8Ii	O	O
@@ -21930,7 +21930,7 @@ Monica	I-geo-loc	I-geo-loc
 ,	O	O
 California	B-geo-loc	B-geo-loc
 .	O	O
-Jesse	B-person	B-person
+Jesse	B-person	O
 's	O	O
 dad	O	O
 was	O	O
@@ -21949,9 +21949,9 @@ happen	O	O
 Lea	B-person	B-person
 Michele	I-person	I-person
 at	O	O
-People	B-other	B-other
-'s	I-other	I-other
-Choice	I-other	I-other
+People	B-other	O
+'s	I-other	O
+Choice	I-other	B-other
 Awards	I-other	I-other
 2012	I-other	I-other
 -	O	O
@@ -22003,9 +22003,9 @@ Saturday	B-other	O
 Health	I-other	O
 Clinic	I-other	O
 at	O	O
-Runner	B-company	O
-'s	I-company	O
-Depot	I-company	O
+Runner	B-company	B-facility
+'s	I-company	I-facility
+Depot	I-company	I-facility
 :	O	O
 "	O	O
 Get	O	O
@@ -22040,7 +22040,7 @@ goes	O	O
 as	O	O
 planned	O	O
 for	O	O
-Wheeler	B-person	B-person
+Wheeler	B-person	O
 and	O	O
 Flores	B-person	B-person
 is	O	O
@@ -22056,7 +22056,7 @@ RT	O	O
 @HellOnWheelsAMC	O	O
 :	O	O
 Same	O	O
-Cullen	B-person	B-person
+Cullen	B-person	O
 ,	O	O
 different	O	O
 railroad	O	O
@@ -22074,10 +22074,10 @@ at	O	O
 .	O	O
 http://t.co/duZgOd8stA	O	O
 
-KOMENTAR	O	O
-Untuk	O	O
-Penampilan	O	O
-Ke2	O	O
+KOMENTAR	O	B-other
+Untuk	O	I-other
+Penampilan	O	I-other
+Ke2	O	I-other
 "	O	O
 TITIK	O	O
 BLITAR	O	O
@@ -22143,8 +22143,8 @@ Arabia	I-geo-loc	I-facility
 in	O	O
 Breach	O	O
 of	O	O
-International	O	B-tvshow
-Law	O	I-tvshow
+International	O	O
+Law	O	O
 :	O	O
 British…	O	O
 http://dlvr.it/DFByBW	O	O
@@ -22438,8 +22438,8 @@ and	O	O
 families	O	O
 of	O	O
 the	O	O
-Wilmington	B-facility	B-other
-Courthouse	I-facility	I-other
+Wilmington	B-facility	B-geo-loc
+Courthouse	I-facility	I-geo-loc
 shooting	O	O
 .	O	O
 
@@ -22499,8 +22499,8 @@ Barack	B-person	O
 Obama	I-person	O
 Briefed	O	O
 on	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 Shooting	O	O
 :	O	O
 White	B-other	B-person
@@ -22636,13 +22636,13 @@ ini	O	O
 hari	O	O
 Rabu	O	O
 ,	O	O
-Tanggal	O	B-other
-15	O	I-other
-Bulan	O	I-other
-April	O	I-other
-Tahun	O	I-other
-2015	O	I-other
-Jam	O	I-other
+Tanggal	O	O
+15	O	O
+Bulan	O	O
+April	O	O
+Tahun	O	O
+2015	O	O
+Jam	O	O
 15:44	O	O
 :	O	O
 03	O	O
@@ -22757,7 +22757,7 @@ London	B-geo-loc	I-person
 New	B-geo-loc	B-geo-loc
 York	I-geo-loc	I-geo-loc
 ,	O	O
-Jerman	O	O
+Jerman	O	B-person
 ada	O	O
 hari	O	O
 perayaan	O	O
@@ -22988,7 +22988,7 @@ about	O	O
 the	O	O
 shooting	O	O
 in	O	O
-Manchester	B-geo-loc	O
+Manchester	B-geo-loc	B-geo-loc
 .	O	O
 Why	O	O
 can't	O	O
@@ -23018,8 +23018,8 @@ everyone	O	O
 involved	O	O
 in	O	O
 the	O	O
-San	O	O
-Bernardino	O	O
+San	O	B-geo-loc
+Bernardino	O	I-geo-loc
 shooting	O	O
 a	O	O
 bit	O	O
@@ -23066,7 +23066,7 @@ dead	O	O
 hurt	O	O
 in	O	O
 Sacramento	B-geo-loc	B-geo-loc
-park	O	I-geo-loc
+park	O	O
 shooting	O	O
 http://ift.tt/1jfaQYH	O	O
 
@@ -23185,9 +23185,9 @@ Not	O	O
 long	O	O
 now	O	O
 for	O	O
-Cliona	B-other	B-other
-'s	I-other	I-other
-Walk	I-other	I-other
+Cliona	B-other	B-person
+'s	I-other	O
+Walk	I-other	O
 @howthyachtclub	O	O
 starting	O	O
 The	B-facility	O
@@ -23289,14 +23289,14 @@ Hobbit	O	O
 
 Banks	O	O
 :	O	O
-Card	O	B-person
-Breach	O	I-person
+Card	O	O
+Breach	O	O
 at	O	O
 Hilton	B-company	B-facility
 Hotel	I-company	I-facility
 Properties	O	I-facility
-—	O	I-facility
-Krebs	B-company	I-facility
+—	O	O
+Krebs	B-company	O
 on	I-company	O
 Security	I-company	O
 http://bit.ly/1LJIc5j	O	O
@@ -23393,8 +23393,8 @@ jajan	O	O
 banyak	O	O
 itu	O	O
 
-Zachary	B-person	O
-Scott	I-person	B-person
+Zachary	B-person	B-person
+Scott	I-person	I-person
 Stone	I-person	I-person
 :	O	O
 Zach	B-person	O
@@ -23485,7 +23485,7 @@ several	O	O
 people	O	O
 this	O	O
 morning	O	O
-#Miami	B-geo-loc	O
+#Miami	B-geo-loc	B-person
 pic.twitter.com/biEmN78BT0	O	O
 
 I'm	O	O
@@ -23499,7 +23499,7 @@ emoji*	O	O
 Flying	O	O
 out	O	O
 to	O	O
-Portland	B-geo-loc	O
+Portland	B-geo-loc	B-geo-loc
 Monday	O	O
 .	O	O
 Going	O	O
@@ -23530,9 +23530,9 @@ COUPLE	I-product	O
 RINGS	I-product	O
 NOW	O	O
 AT	O	O
-ANY	O	B-facility
-SILVERWORKS	B-company	I-facility
-BRANCH	O	I-facility
+ANY	O	O
+SILVERWORKS	B-company	O
+BRANCH	O	O
 .	O	O
 Until	O	O
 nov	O	O
@@ -23698,8 +23698,8 @@ Active	O	O
 Killer	O	O
 shooting	O	O
 on	O	O
-Santa	B-geo-loc	B-person
-Monica	I-geo-loc	I-person
+Santa	B-geo-loc	B-other
+Monica	I-geo-loc	I-other
 campus	O	O
 http://guardamerican.com/index.php/blog/146-crime-punishment/798-breaking-active-killer-shooting-on-santa-monica-campus	O	O
 …	O	O
@@ -23930,8 +23930,8 @@ through	O	O
 Happy	O	O
 Monday	O	O
 from	O	O
-sunny	O	B-person
-Southern	B-geo-loc	I-person
+sunny	O	O
+Southern	B-geo-loc	B-geo-loc
 California	I-geo-loc	B-geo-loc
 !	O	O
 https://t.co/qPrlb7zipI	O	O
@@ -24335,9 +24335,9 @@ Friday	O	O
 night	O	O
 :(	O	O
 
-Junior	O	B-person
-High	O	I-person
-Soccer	O	I-person
+Junior	O	O
+High	O	B-sportsteam
+Soccer	O	I-sportsteam
 kicks	O	O
 off	O	O
 their	O	O
@@ -24522,7 +24522,7 @@ March	O	O
 -Twitter-	O	O
 lotto	O	O
 for	O	O
-Swansea	B-geo-loc	O
+Swansea	B-geo-loc	B-person
 .	O	O
 @TehMrSkinner	O	O
 get	O	O
@@ -24609,8 +24609,8 @@ Shooting	O	O
 Shots	O	O
 Fired	O	O
 Near	O	O
-Main	B-geo-loc	B-person
-St	I-geo-loc	I-person
+Main	B-geo-loc	O
+St	I-geo-loc	O
 and	O	O
 Alma	B-facility	B-person
 School	I-facility	I-person
@@ -24795,13 +24795,13 @@ outcome	O	O
 may	O	O
 be	O	O
 
-Microsoft	B-product	O
-Office	I-product	O
-2016	I-product	O
-Siap	O	O
-Diluncurkan	O	O
-September	O	O
-Ini	O	O
+Microsoft	B-product	B-other
+Office	I-product	I-other
+2016	I-product	I-other
+Siap	O	I-other
+Diluncurkan	O	I-other
+September	O	I-other
+Ini	O	I-other
 :	O	O
 Awal	O	O
 tahun	O	O
@@ -24826,7 +24826,7 @@ Teen	I-other	I-other
 Choice	I-other	I-other
 Awards	I-other	I-other
 "	O	O
-Ceremony	O	O
+Ceremony	O	B-person
 will	O	O
 be	O	O
 held	O	O
@@ -25024,7 +25024,7 @@ Upcoming	O	O
 Cyber	O	O
 Talks	O	O
 With	O	O
-#China	B-geo-loc	O
+#China	B-geo-loc	B-person
 http://thkpr.gs/3703740	O	O
 via	O	O
 @	O	O
@@ -25206,8 +25206,8 @@ VIDEO	O	O
 :	O	O
 Suspects	O	O
 in	O	O
-Brooklyn	B-geo-loc	O
-Mass	O	O
+Brooklyn	B-geo-loc	B-geo-loc
+Mass	O	I-geo-loc
 Shooting	O	O
 Open	O	O
 Fire	O	O
@@ -25251,9 +25251,9 @@ my	O	O
 goal	O	O
 https://t.co/A6NiQdUlYH	O	O
 
-Does	O	O
-Sachin	O	O
-Tendulkar	O	O
+Does	O	B-other
+Sachin	O	I-other
+Tendulkar	O	I-other
 even	O	O
 know	O	O
 I	O	O
@@ -25413,7 +25413,7 @@ https://t.co/KfEehCfkXM	O	O
 Fatal	O	O
 shooting	O	O
 in	O	O
-Newark	B-geo-loc	O
+Newark	B-geo-loc	B-geo-loc
 :	O	O
 One	O	O
 person	O	O
@@ -25439,9 +25439,9 @@ RT	O	O
 :	O	O
 Nichkhun	B-musicartist	O
 for	O	O
-Elle	B-product	O
-Men	I-product	O
-Thailand	I-product	O
+Elle	B-product	B-other
+Men	I-product	I-other
+Thailand	I-product	I-other
 Sept	O	O
 2015	O	O
 issue	O	O
@@ -25490,9 +25490,9 @@ Christmas	B-product	B-other
 In	I-product	I-other
 July	I-product	I-other
 10K	I-product	I-other
-Yellow	I-product	I-other
-Gold	I-product	I-other
-Mens	I-product	I-other
+Yellow	I-product	O
+Gold	I-product	O
+Mens	I-product	O
 by	O	O
 TheJewelryGirlsPlace	B-company	O
 http://t.co/Rot32JFmwM	O	O
@@ -25579,7 +25579,7 @@ or	O	O
 RT	O	O
 @5SOSsUpdatess	O	O
 :	O	O
-Ashton	B-musicartist	B-geo-loc
+Ashton	B-musicartist	B-person
 with	O	O
 a	O	O
 fan	O	O
@@ -25709,7 +25709,7 @@ Language	I-product	I-other
 if	O	O
 FREE	O	O
 from	O	O
-April	O	B-geo-loc
+April	O	O
 8-12	O	O
 .	O	O
 Grab	O	O
@@ -26108,8 +26108,8 @@ Breach	O	O
 Updates	O	O
 App	O	O
 to	O	O
-Fix	O	O
-Find	O	O
+Fix	O	B-facility
+Find	O	I-facility
 Friends	O	O
 Feature	O	O
 :	O	O
@@ -26141,20 +26141,20 @@ by	O	O
 your	O	O
 side	O	O
 
-GPS	O	B-other
-Sun	O	I-other
-Shade	O	I-other
+GPS	O	O
+Sun	O	B-person
+Shade	O	I-person
 for	O	O
-Garmin	O	O
-nuvi	O	O
-1100	O	O
-1100LM	O	O
-1200	O	O
-1210	O	O
-1240	O	O
-1245	O	O
-1250	O	O
-1260T	O	O
+Garmin	O	B-movie
+nuvi	O	I-movie
+1100	O	I-movie
+1100LM	O	I-movie
+1200	O	I-movie
+1210	O	I-movie
+1240	O	I-movie
+1245	O	I-movie
+1250	O	I-movie
+1260T	O	I-movie
 fo350g	O	O
 http://t.co/YMASkwSpCq	O	O
 http://t.co/0dri1LJsaE	O	O
@@ -26181,14 +26181,14 @@ their	O	O
 families	O	O
 .	O	O
 
-Wendy	B-company	B-person
-'s	I-company	O
-Credit	O	O
-Card	O	O
-Breach	O	O
-Prompts	O	O
-Company	O	O
-Investigation	O	O
+Wendy	B-company	B-other
+'s	I-company	I-other
+Credit	O	I-other
+Card	O	I-other
+Breach	O	I-other
+Prompts	O	I-other
+Company	O	I-other
+Investigation	O	I-other
 :	O	O
 Report	O	O
 http://dlvr.it/KLwK8n	O	O
@@ -26347,7 +26347,7 @@ and	O	O
 a	O	O
 bright	O	O
 and	O	O
-sunny	O	B-person
+sunny	O	O
 morning	O	O
 it	O	O
 has	O	O
@@ -26394,8 +26394,8 @@ RT	O	O
 @sarahgpopster	O	O
 :	O	O
 #CoachSarahAsTrixieABANGAN	O	O
-Sarah	B-person	B-person
-Piolo	I-person	I-person
+Sarah	B-person	O
+Piolo	I-person	O
 The	B-company	O
 Pencil	I-company	O
 Grip	I-company	O
@@ -26403,8 +26403,8 @@ makikilala	O	O
 nyo	O	O
 na	O	O
 si	O	O
-Trixie	B-person	B-person
-David	I-person	I-person
+Trixie	B-person	O
+David	I-person	O
 this	O	O
 July	O	O
 1	O	O
@@ -26501,7 +26501,7 @@ Sayreville	B-geo-loc	B-geo-loc
 ,	O	O
 NJ	B-geo-loc	O
 -	O	O
-Jan	O	B-person
+Jan	O	O
 26	O	O
 https://t.co/zUhF1Mge2C	O	O
 
@@ -26570,7 +26570,7 @@ Club	O	O
 Shooting	O	O
 «	O	O
 CBS	B-company	O
-Miami	I-company	O
+Miami	I-company	B-geo-loc
 http://cbsloc.al/1Ih6pxY	O	O
 
 Arlington	B-geo-loc	O
@@ -26650,8 +26650,8 @@ for	O	O
 Security	O	O
 Breach	O	O
 ,	O	O
-Releases	O	O
-Fix	O	O
+Releases	O	B-person
+Fix	O	I-person
 http://bit.ly/KJ4SXk	O	O
 #Apps	O	O
 #Business	O	O
@@ -26776,7 +26776,7 @@ in	O	O
 the	O	O
 Top20	O	O
 of	O	O
-Pune	B-geo-loc	O
+Pune	B-geo-loc	B-person
 's	O	O
 Trends	O	O
 :	O	O
@@ -26852,8 +26852,8 @@ Storm	B-musicartist	B-person
 April	O	I-person
 14th	O	O
 at	O	O
-the	B-facility	O
-Whiskey	I-facility	O
+the	B-facility	B-facility
+Whiskey	I-facility	I-facility
 with	O	O
 Classified	B-musicartist	O
 !	O	O
@@ -27067,7 +27067,7 @@ Reported	O	O
 in	O	O
 Washington	B-facility	B-geo-loc
 Navy	I-facility	I-geo-loc
-Yard	I-facility	O
+Yard	I-facility	I-geo-loc
 Shooting	O	O
 ,	O	O
 via	O	O
@@ -27109,7 +27109,7 @@ excited	O	O
 in	O	O
 Hamburg	B-geo-loc	B-geo-loc
 ,	O	O
-Germany	B-geo-loc	O
+Germany	B-geo-loc	B-person
 .	O	O
 #Germany	O	O
 #Hamburg	O	O
@@ -27154,8 +27154,8 @@ on	O	O
 the	O	O
 loose	O	O
 |	O	O
-Fox	B-company	B-person
-News	I-company	I-person
+Fox	B-company	O
+News	I-company	O
 http://smar.ws/E2e4i	O	O
 #SmartNews	O	O
 
@@ -27192,7 +27192,7 @@ RT	O	O
 Sun	B-product	O
 Saathiya	I-product	O
 -	O	O
-Disney	B-company	O
+Disney	B-company	B-person
 's	O	O
 ABCD	B-movie	O
 2	I-movie	O
@@ -27236,8 +27236,8 @@ be	O	O
 @	O	O
 Made	O	O
 in	O	O
-Oklahoma	B-other	O
-Wine	I-other	O
+Oklahoma	B-other	B-geo-loc
+Wine	I-other	I-geo-loc
 ,	I-other	O
 Beer	I-other	O
 ,	I-other	O
@@ -27555,9 +27555,9 @@ Sep-14-201	O	O
 ...	O	O
 http://t.co/qLD8zRAM38	O	O
 
-Muhammad	B-person	B-person
-Youssef	I-person	I-person
-Abdulazeez	I-person	I-person
+Muhammad	B-person	O
+Youssef	I-person	O
+Abdulazeez	I-person	O
 :	O	O
 5	O	O
 Fast	O	O
@@ -27602,7 +27602,7 @@ day	O	O
 !	O	O
 It	O	O
 's	O	O
-April	O	B-person
+April	O	O
 12	O	O
 ,	O	O
 2015	O	O
@@ -27632,8 +27632,8 @@ BopisPaMore	O	O
 RegineVelasquez	O	O
 https://t.co/1QsRc7dJvP	O	O
 
-Costa	B-geo-loc	B-person
-Rica	I-geo-loc	I-person
+Costa	B-geo-loc	O
+Rica	I-geo-loc	O
 generates	O	O
 up	O	O
 to	O	O
@@ -27742,8 +27742,8 @@ https://t.co/Nb8NRzrRRk	O	O
 Four	O	O
 Marines	O	O
 ,	O	O
-Sole	O	O
-Gunman	O	O
+Sole	O	B-person
+Gunman	O	I-person
 Killed	O	O
 In	O	O
 Chattanooga	B-geo-loc	O
@@ -27999,8 +27999,8 @@ at	O	O
 10:07	O	O
 AM	O	O
 
-Good	O	O
-Afternoon	O	O
+Good	O	B-person
+Afternoon	O	I-person
 ,	O	O
 I'll	O	O
 some	O	O
@@ -28032,7 +28032,7 @@ RT	O	O
 Memo	O	O
 to	O	O
 John	B-person	B-person
-McDonnell	I-person	I-person
+McDonnell	I-person	O
 :	O	O
 Good	B-other	O
 Friday	I-other	O
@@ -28118,9 +28118,9 @@ Tomorrow	O	O
 Attingham	B-other	B-geo-loc
 Adventures	I-other	I-geo-loc
 is	O	O
-Deer	O	B-product
-Park	O	I-product
-Safari	O	I-product
+Deer	O	B-facility
+Park	O	I-facility
+Safari	O	I-facility
 -	O	O
 times	O	O
 ,	O	O
@@ -28247,8 +28247,8 @@ en	O	O
 luna	O	O
 llena	O	O
 ,	O	O
-son	O	B-person
-tan	O	I-person
+son	O	O
+tan	O	O
 profundos	O	O
 como	O	O
 el	O	O
@@ -28349,9 +28349,9 @@ Fire	O	O
 ,	O	O
 shooting	O	O
 near	O	O
-Santa	B-facility	B-person
-Monica	I-facility	I-person
-College	I-facility	I-person
+Santa	B-facility	B-other
+Monica	I-facility	I-other
+College	I-facility	I-other
 -	O	O
 LA	B-company	B-other
 Daily	I-company	I-other
@@ -28508,7 +28508,7 @@ a	O	O
 bonfire	O	O
 ."	O	O
 -	O	O
-Jan	B-person	B-person
+Jan	B-person	O
 (	O	O
 Doris	B-person	B-person
 Day	I-person	I-person
@@ -28823,8 +28823,8 @@ stages	O	O
 RT	O	O
 @__arsenal_news_	O	O
 :	O	O
-Tomorrow	O	O
-London	B-geo-loc	O
+Tomorrow	O	B-person
+London	B-geo-loc	I-person
 will	O	O
 once	O	O
 again	O	O
@@ -28890,7 +28890,7 @@ for	O	O
 families/students	O	O
 in	O	O
 Marysville	B-facility	B-geo-loc
-School	I-facility	O
+School	I-facility	I-geo-loc
 shooting	O	O
 
 RT	O	O
@@ -29094,8 +29094,8 @@ basketball	O	O
 The	O	O
 time	O	O
 for	O	O
-Asr	B-other	O
-Shafi	I-other	O
+Asr	B-other	B-other
+Shafi	I-other	I-other
 has	O	O
 set	O	O
 in	O	O
@@ -29185,9 +29185,9 @@ these	O	O
 reports	O	O
 from	O	O
 the	O	O
-Wilmington	B-facility	O
-Courthouse	I-facility	O
-Shooting	I-facility	O
+Wilmington	B-facility	B-other
+Courthouse	I-facility	I-other
+Shooting	I-facility	I-other
 ...	O	O
 smh	O	O
 ...	O	O
@@ -29304,8 +29304,8 @@ GoT	B-tvshow	O
 te	O	O
 necesito	O	O
 en	O	O
-mi	O	O
-vida	O	O
+mi	O	B-person
+vida	O	I-person
 https://t.co/5TJU0MX5NF	O	O
 
 @theyneeal	O	O
@@ -29477,8 +29477,8 @@ my	O	O
 7th	O	O
 marathon	O	O
 ,	O	O
-3rd	O	O
-Boston	B-other	B-person
+3rd	O	B-person
+Boston	B-other	I-person
 Marathon	I-other	I-person
 .	O	O
 
@@ -29496,8 +29496,8 @@ http://t.co/tH8r6kaMSK	O	O
 
 Ikaw	O	O
 na	O	O
-na	O	O
-na	O	O
+na	O	B-person
+na	O	I-person
 \\Happy	O	O
 19th	O	O
 Monthsary	O	O
@@ -29706,7 +29706,7 @@ please	O	O
 !!!	O	O
 Giggles	O	O
 Love	O	O
-Tanya	O	B-person
+Tanya	O	O
 xx	O	O
 
 RT	O	O
@@ -29810,7 +29810,7 @@ http://t.co/q8qXvb73Pp	O	O
 Get	O	O
 down	O	O
 to	O	O
-Cochrane	B-geo-loc	B-geo-loc
+Cochrane	B-geo-loc	O
 an	O	O
 support	O	O
 the	O	O
@@ -30186,7 +30186,7 @@ Friday	O	O
 Lunch	O	O
 Out	O	O
 with	O	O
-#Grazildas	O	O
+#Grazildas	O	B-person
 #northpark	O	O
 #InstaMagAndroid	O	O
 @	O	O
@@ -30397,15 +30397,15 @@ https://t.co/amrOrvAwGr	O	O
 Bayon	B-company	O
 TV	I-company	O
 ,	O	O
-Carabao	B-other	O
-Concert	I-other	O
+Carabao	B-other	B-person
+Concert	I-other	I-person
 ,	O	O
 19-December-2015	O	O
 Part	O	O
 03	O	O
 ,	O	O
-Sous	B-musicartist	B-musicartist
-Visa	I-musicartist	I-musicartist
+Sous	B-musicartist	B-person
+Visa	I-musicartist	I-person
 :	O	O
 https://t.co/GGijoYtWoC	O	O
 via	O	O
@@ -30513,7 +30513,7 @@ game	O	O
 
 March	O	O
 ,	O	O
-August	O	B-person
+August	O	O
 ,	O	O
 and	O	O
 November	O	O
@@ -30642,7 +30642,7 @@ analysis	O	O
 
 Think	O	O
 i'm	O	O
-Gavin	O	B-person
+Gavin	O	O
 2nd	O	O
 thoughts	O	O
 on	O	O
@@ -30745,7 +30745,7 @@ in	O	O
 New	B-facility	B-geo-loc
 Castle	I-facility	I-geo-loc
 County	I-facility	I-geo-loc
-Courthouse	I-facility	O
+Courthouse	I-facility	I-geo-loc
 shooting	O	O
 in	O	O
 #Wilmington	B-geo-loc	B-geo-loc
@@ -31275,8 +31275,8 @@ you	O	O
 know	O	O
 if	O	O
 the	O	O
-CC	O	O
-Final	O	O
+CC	O	B-other
+Final	O	I-other
 will	O	O
 be	O	O
 live	O	O
@@ -31319,7 +31319,7 @@ Michalle	B-person	O
 Listen	O	O
 to	O	O
 Goodbye	B-product	B-geo-loc
-Tomorrow	I-product	O
+Tomorrow	I-product	I-geo-loc
 -	I-product	O
 NoOne	I-product	O
 or	I-product	O
@@ -31424,7 +31424,7 @@ sad	O	O
 RT	O	O
 @DocBastard	O	O
 :	O	O
-Bacon	O	B-sportsteam
+Bacon	O	B-person
 vs	O	O
 .	O	O
 the	O	O
@@ -31493,9 +31493,9 @@ Shooting	O	O
 What	O	O
 Is	O	O
 the	O	O
-Inland	B-other	B-other
-Regional	I-other	I-other
-Center	I-other	I-other
+Inland	B-other	B-facility
+Regional	I-other	I-facility
+Center	I-other	I-facility
 ?	O	O
 http://nbcnews.to/1l8UVol	O	O
 via	O	O
@@ -31517,9 +31517,9 @@ protest	O	O
 Report	O	O
 :	O	O
 The	O	O
-U.S.	B-other	O
-Air	I-other	O
-Force…	O	O
+U.S.	B-other	B-other
+Air	I-other	I-other
+Force…	O	I-other
 http://dlvr.it/Cr4Ts6	O	O
 
 July	O	O
@@ -31769,8 +31769,8 @@ RT	O	O
 Transformation	O	O
 Tuesday	O	O
 :	O	O
-Gucci	B-musicartist	O
-Mane	I-musicartist	O
+Gucci	B-musicartist	B-company
+Mane	I-musicartist	I-company
 http://t.co/XUhmDtFe5F	O	O
 
 Happy	O	O
@@ -31869,7 +31869,7 @@ JDEC	O	O
 JGUEULE	O	O
 PAS	O	O
 
-Foligno	B-person	O
+Foligno	B-person	B-person
 's	O	O
 3	O	O
 goals	O	O
@@ -31882,7 +31882,7 @@ for	O	O
 straight	O	O
 (	O	O
 Yahoo	B-company	B-company
-Sports)	O	O
+Sports)	O	I-company
 :	O	O
 Sidney	B-person	B-person
 Crosby	I-person	I-person
@@ -31958,8 +31958,8 @@ it	O	O
 Saturday	O	O
 !	O	O
 #AzaroLocal	O	O
-#Brighton	B-geo-loc	O
-#Hove	O	O
+#Brighton	B-geo-loc	B-geo-loc
+#Hove	O	I-geo-loc
 
 TalkTalk	B-company	O
 customer	O	O
@@ -32022,8 +32022,8 @@ https://t.co/GekQsEYAeW	O	O
 https://t.co/rSnVxnGfGf	O	O
 
 Flash	O	O
-Flood	O	B-person
-Watch	O	I-person
+Flood	O	O
+Watch	O	O
 for	O	O
 Harris	O	B-person
 County	O	I-person
@@ -32205,7 +32205,7 @@ in	O	O
 broad	O	O
 daylight	O	O
 in	O	O
-North	B-geo-loc	B-geo-loc
+North	B-geo-loc	O
 .	I-geo-loc	O
 Philadelphia	I-geo-loc	O
 http://6abc.cm/1nOlVHJ	O	O
@@ -32454,8 +32454,8 @@ Family	O	O
 ...	O	O
 http://t.co/tAIA1QYp1B	O	O
 
-Ramadan	B-other	O
-Day	O	O
+Ramadan	B-other	B-other
+Day	O	I-other
 12	O	O
 complete	O	O
 mAy	O	O
@@ -32706,7 +32706,7 @@ kangen	O	O
 RT	O	O
 @NarrySource	O	O
 :	O	O
-Harry	B-musicartist	B-person
+Harry	B-musicartist	O
 trying	O	O
 to	O	O
 get	O	O
@@ -32820,7 +32820,7 @@ Shooting	O	O
 reported	O	O
 at	O	O
 Portland	B-geo-loc	B-facility
-high	O	I-facility
+high	O	O
 school	O	O
 ,	O	O
 at	O	O
@@ -32979,9 +32979,9 @@ Wi-Fi	O	O
 7.9	O	O
 in	O	O
 -	O	O
-White	O	B-other
-&amp;	O	I-other
-Silver	O	I-other
+White	O	O
+&amp;	O	O
+Silver	O	B-person
 -	O	O
 Bid	O	O
 Now	O	O
@@ -32997,9 +32997,9 @@ She	O	O
 was	O	O
 sat	O	O
 with	O	O
-Hyo-Yeon	B-musicartist	B-musicartist
-and	O	I-musicartist
-Taeyeon	B-musicartist	I-musicartist
+Hyo-Yeon	B-musicartist	B-person
+and	O	O
+Taeyeon	B-musicartist	B-person
 and	O	O
 i	O	O
 was	O	O
@@ -33018,8 +33018,8 @@ me	O	O
 and	O	O
 goes	O	O
 "	O	O
-Hi	O	B-other
-James	B-person	I-other
+Hi	O	O
+James	B-person	O
 "	O	O
 i'm	O	O
 like	O	O
@@ -33030,7 +33030,7 @@ am	O	O
 I	O	O
 cold	O	O
 in	O	O
-June	O	B-geo-loc
+June	O	O
 haha	O	O
 ?	O	O
 Haha	O	O
@@ -33082,10 +33082,10 @@ Moment	O	O
 of	O	O
 Zen	O	O
 :	O	O
-Torrey	B-geo-loc	O
-Pines	I-geo-loc	O
-State	I-geo-loc	O
-Reserve	I-geo-loc	O
+Torrey	B-geo-loc	B-other
+Pines	I-geo-loc	I-other
+State	I-geo-loc	I-other
+Reserve	I-geo-loc	I-other
 ,	O	O
 Del	B-geo-loc	B-person
 Mar	I-geo-loc	I-person
@@ -33528,7 +33528,7 @@ Man	O	O
 20	O	O
 ,	O	O
 from	O	O
-Staffordshire	B-geo-loc	O
+Staffordshire	B-geo-loc	B-geo-loc
 arrested	O	O
 over	O	O
 TalkTalk	B-company	O
@@ -33802,8 +33802,8 @@ at	O	O
 Louisville	B-other	B-facility
 Leopards	I-other	I-facility
 Boys	I-other	I-facility
-Tournament	I-other	O
-Basketball	O	O
+Tournament	I-other	I-facility
+Basketball	O	I-facility
 Video	O	O
 Highlights	O	O
 &amp;	O	O
@@ -34110,13 +34110,13 @@ at	O	O
 AM	O	O
 4	O	O
 
-Ahok	O	O
-Buka	O	O
-Pendaftaran	O	O
-KJP	O	O
-pada	O	O
-24	O	O
-Agustus-25	O	O
+Ahok	O	B-other
+Buka	O	I-other
+Pendaftaran	O	I-other
+KJP	O	I-other
+pada	O	I-other
+24	O	I-other
+Agustus-25	O	I-other
 September	O	O
 di	O	O
 Sekolah	O	O
@@ -34363,7 +34363,7 @@ leaving	O	O
 Nobu	B-facility	O
 Restaurant	I-facility	O
 in	O	O
-Malibu	B-geo-loc	O
+Malibu	B-geo-loc	B-geo-loc
 (	O	O
 July	O	O
 13th	O	O
@@ -34408,8 +34408,8 @@ Mother	B-other	B-other
 Day	I-other	I-other
 parade	O	I-other
 in	O	O
-New	B-geo-loc	O
-Orleans	I-geo-loc	O
+New	B-geo-loc	B-geo-loc
+Orleans	I-geo-loc	I-geo-loc
 ;	O	O
 at	O	O
 least	O	O
@@ -34855,7 +34855,7 @@ http://bit.ly/1N8hhfI	O	O
 #BC	B-geo-loc	O
 #Jobs	O	O
 1st	O	O
-Cook	O	B-person
+Cook	O	O
 -	O	O
 MATCH	O	O
 http://t.co/asE3Gwfqsg	O	O
@@ -35011,8 +35011,8 @@ for	O	O
 Friday	O	O
 Night	O	O
 https://t.co/oeuxBrHkPt	O	O
-#Weather	O	O
-#Boston	O	O
+#Weather	O	B-person
+#Boston	O	I-person
 
 12	O	O
 dead	O	O
@@ -35046,8 +35046,8 @@ Mass	O	I-geo-loc
 Shooting	O	O
 :	O	O
 '	O	O
-Inspire	O	B-movie
-Peace	O	I-movie
+Inspire	O	O
+Peace	O	O
 '	O	O
 http://dlvr.it/CvTjmc	O	O
 
@@ -35305,7 +35305,7 @@ likely	O	O
 
 Ritrovato	B-person	O
 says	O	O
-Alexis	B-person	B-person
+Alexis	B-person	O
 was	O	O
 '	O	O
 easy	O	O
@@ -35556,8 +35556,8 @@ huli	O	O
 
 [#LosAngelesWeather]	O	O
 ,	O	O
-#Los	B-geo-loc	B-geo-loc
-Angeles	I-geo-loc	I-geo-loc
+#Los	B-geo-loc	O
+Angeles	I-geo-loc	O
 weather	O	O
 July	O	O
 7	O	O
@@ -35592,8 +35592,8 @@ Portland	B-geo-loc	B-geo-loc
 ,	O	O
 Oregon	B-geo-loc	B-geo-loc
 ,	O	O
-High	O	B-person
-School	O	I-person
+High	O	O
+School	O	O
 http://bit.ly/1woHVf1	O	O
 
 RT	O	O
@@ -35631,7 +35631,7 @@ is	O	O
 August	O	O
 29	O	O
 for	O	O
-SF	O	O
+SF	O	B-geo-loc
 
 @null	O	O
 Rabu	O	O
@@ -35782,7 +35782,7 @@ shops	O	O
 start	O	O
 putting	O	O
 Christmas	B-other	B-other
-things	O	I-other
+things	O	O
 on	O	O
 shelves	O	O
 ..	O	O
@@ -35841,8 +35841,8 @@ repeat	O	O
 Chemours	B-company	O
 plant	O	O
 in	O	O
-Niagara	B-geo-loc	B-geo-loc
-Falls	I-geo-loc	I-geo-loc
+Niagara	B-geo-loc	O
+Falls	I-geo-loc	O
 plans	O	O
 to	O	O
 cut	O	O
@@ -36001,10 +36001,10 @@ WikiLeaks	B-company	O
 :	O	O
 NSA	B-other	O
 targeted	O	O
-German	O	B-person
+German	O	O
 chancellery	O	O
 ,	O	O
-Merkel	B-person	O
+Merkel	B-person	B-person
 aides	O	O
 :	O	O
 BERLIN	B-geo-loc	O
@@ -36118,7 +36118,7 @@ form	O	O
 Happy	O	O
 2nd	O	O
 birthday	O	O
-B	O	O
+B	O	B-person
 !!!!	O	O
 ur	O	O
 so	O	O
@@ -36276,10 +36276,10 @@ of	O	O
 Justin	B-musicartist	B-person
 at	O	O
 the	O	O
-2015	B-other	B-other
-American	I-other	I-other
-Music	I-other	I-other
-Awards	I-other	I-other
+2015	B-other	O
+American	I-other	B-product
+Music	I-other	I-product
+Awards	I-other	I-product
 in	O	O
 Los	B-geo-loc	B-geo-loc
 Angeles	I-geo-loc	I-geo-loc
@@ -36442,9 +36442,9 @@ shooting	O	O
 authorities	O	O
 say	O	O
 -	O	O
-The	B-company	O
-Washington	I-company	B-geo-loc
-Post	I-company	I-geo-loc
+The	B-company	B-person
+Washington	I-company	I-person
+Post	I-company	I-person
 http://www.washingtonpost.com/politics/aaron-alexis-34-is-dead-gunman-in-navy-yard-shooting-authorities-say/2013/09/16/dcf431ce-1f07-11e3-8459-657e0c72fec8_story.html?Post+generic=%3Ftid%3Dsm_twitter_washingtonpost	O	O
 …	O	O
 
@@ -36474,8 +36474,8 @@ Motive	O	O
 a	O	O
 mystery	O	O
 in	O	O
-Lake	B-geo-loc	B-person
-Butler	I-geo-loc	I-person
+Lake	B-geo-loc	B-geo-loc
+Butler	I-geo-loc	I-geo-loc
 ,	O	O
 Fla	B-geo-loc	O
 .,	O	O
@@ -36585,10 +36585,10 @@ data	O	O
 breach	O	O
 http://dlvr.it/4j3fcf	O	O
 
-Observer	B-other	B-other
-Ethical	I-other	I-other
-Awards	I-other	I-other
-2015	I-other	I-other
+Observer	B-other	O
+Ethical	I-other	O
+Awards	I-other	O
+2015	I-other	O
 -	O	O
 nominate	O	O
 now	O	O
@@ -36666,11 +36666,11 @@ best	O	O
 rivalries	O	O
 in	O	O
 the	O	O
-state	O	O
-Franklin	B-sportsteam	B-person
-Vs	O	I-person
-Oak	B-product	O
-Creek	I-product	O
+state	O	B-other
+Franklin	B-sportsteam	I-other
+Vs	O	I-other
+Oak	B-product	I-other
+Creek	I-product	I-other
 Sept	O	O
 .	O	O
 18th	O	O
@@ -36875,9 +36875,9 @@ may	O	O
 be	O	O
 affected	O	O
 (	O	O
-Chad	B-person	O
-Terhune/Los	B-company	O
-Angeles	I-company	O
+Chad	B-person	B-person
+Terhune/Los	B-company	I-person
+Angeles	I-company	I-person
 Times	I-company	O
 )	O	O
 http://ht.ly/31xct4	O	O
@@ -37006,8 +37006,8 @@ injuries	O	O
 ,	O	O
 according	O	O
 to	O	O
-Minneapolis	B-other	B-facility
-Police	I-other	I-facility
+Minneapolis	B-other	B-geo-loc
+Police	I-other	I-geo-loc
 .	O	O
 http://kstp.mn/7ij3m	O	O
 ”	O	O
@@ -37070,8 +37070,8 @@ Stoppers	O	O
 Offering	O	O
 Reward	O	O
 In	O	O
-#Knoxville	B-geo-loc	O
-#Shooting	O	O
+#Knoxville	B-geo-loc	B-geo-loc
+#Shooting	O	I-geo-loc
 -	O	O
 Jul	O	O
 30	O	O
@@ -37099,7 +37099,7 @@ a	O	O
 miler	O	O
 in	O	O
 DC	O	B-geo-loc
-April	O	I-geo-loc
+April	O	O
 12th	O	O
 that	O	O
 I'm	O	O
@@ -37357,8 +37357,8 @@ your	O	O
 flow	O	O
 chart	O	O
 with	O	O
-Maths	O	O
-Fac	O	O
+Maths	O	B-person
+Fac	O	I-person
 who	O	O
 are	O	O
 adopting	O	O
@@ -37510,7 +37510,7 @@ RT	O	O
 :	O	O
 York	B-geo-loc	B-person
 ,	O	O
-PA	B-geo-loc	B-person
+PA	B-geo-loc	O
 .	O	O
 I'll	O	O
 be	O	O
@@ -37582,8 +37582,8 @@ JaDineOnTheirWingsToLondon	O	O
 #OTWOLAngel	O	O
 
 Breaking	O	O
-Chicago	B-geo-loc	O
-News	O	O
+Chicago	B-geo-loc	B-geo-loc
+News	O	I-geo-loc
 :	O	O
 CTA	B-other	O
 bus	O	O
@@ -37829,7 +37829,7 @@ party	O	O
 all	O	O
 night	O	O
 at	O	O
-Kahuna	B-facility	O
+Kahuna	B-facility	B-geo-loc
 this	O	O
 Saturday	O	O
 .	O	O
@@ -37837,10 +37837,10 @@ Saturday	O	O
 @AnucAmebor	O	O
 @AnucGh	O	O
 
-Redmon	B-company	B-other
-'s	I-company	I-other
-Village	I-company	I-other
-Towing	I-company	I-other
+Redmon	B-company	O
+'s	I-company	O
+Village	I-company	O
+Towing	I-company	O
 in	O	O
 Schaumburg	B-geo-loc	B-geo-loc
 ,	O	O
@@ -38103,8 +38103,8 @@ Shooting	O	O
 On	O	O
 New	B-geo-loc	O
 Orleans’s	O	O
-Famous	O	O
-Bourbon	B-geo-loc	O
+Famous	O	B-person
+Bourbon	B-geo-loc	I-person
 Street	I-geo-loc	O
 http://ift.tt/1yZUDCs	O	O
 
@@ -38121,11 +38121,11 @@ http://t.co/zMa5wEueX9	O	O
 Now	O	O
 airing	O	O
 &gt;	O	O
-August	B-musicartist	B-person
-Alsina	I-musicartist	I-person
+August	B-musicartist	O
+Alsina	I-musicartist	O
 -	O	O
-Nicki	B-musicartist	B-person
-Minaj	I-musicartist	I-person
+Nicki	B-musicartist	O
+Minaj	I-musicartist	O
 -	O	O
 No	B-product	O
 Love	I-product	O
@@ -38167,8 +38167,8 @@ Arabia	I-geo-loc	I-facility
 in	O	O
 Breach	O	O
 of	O	O
-International	O	B-tvshow
-Law	O	I-tvshow
+International	O	O
+Law	O	O
 :	O	O
 British…	O	O
 http://dlvr.it/DFByBW	O	O
@@ -38411,7 +38411,7 @@ happens	O	O
 ...	O	O
 Ol	O	O
 '	O	O
-Dave	O	B-person
+Dave	O	O
 ...	O	O
 http://t.co/u9NicaUm6K	O	O
 
@@ -38422,8 +38422,8 @@ to	O	O
 be	O	O
 loving	O	O
 this	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 !	O	O
 Mass	O	O
@@ -38955,15 +38955,15 @@ https://t.co/aF03Qm2QIE	O	O
 Anonymous	B-other	O
 T1m35	O	O
 :	O	O
-CIA	B-other	O
-Email	O	O
-Hackers	O	O
-Return	O	O
-With	O	O
-Major	O	B-person
-Law	O	I-person
-Enforcement	O	O
-Breach	O	O
+CIA	B-other	B-other
+Email	O	I-other
+Hackers	O	I-other
+Return	O	I-other
+With	O	I-other
+Major	O	I-other
+Law	O	I-other
+Enforcement	O	I-other
+Breach	O	I-other
 |	O	O
 …	O	O
 http://www.wired.com/2015/11/cia-email-hackers-return-with-major-law-enforcement-breach/	O	O
@@ -39075,13 +39075,13 @@ ini	O	O
 hari	O	O
 Rabu	O	O
 ,	O	O
-Tanggal	O	B-other
-01	O	I-other
-Bulan	O	I-other
-April	O	I-other
-Tahun	O	I-other
-2015	O	I-other
-Jam	O	I-other
+Tanggal	O	O
+01	O	O
+Bulan	O	O
+April	O	O
+Tahun	O	O
+2015	O	O
+Jam	O	O
 03:39	O	O
 :	O	O
 19	O	O
@@ -39091,8 +39091,8 @@ RT	O	O
 :	O	O
 Breaking	O	O
 :	O	O
-Mario	B-person	B-person
-Draghi	I-person	I-person
+Mario	B-person	B-other
+Draghi	I-person	I-other
 says	O	O
 ECB	B-company	O
 to	O	O
@@ -39171,7 +39171,7 @@ hosting	O	O
 a	O	O
 guided	O	O
 walk	O	O
-Jan	O	B-person
+Jan	O	O
 9th	O	O
 :	O	O
 https://t.co/QCbEIAuaI5	O	O
@@ -39596,15 +39596,15 @@ http://t.co/VDBhp0tMql	O	O
 #vacation	O	O
 http://t.co/45FoHLAjYF	O	O
 
-Join	O	B-facility
-Craft	B-other	I-facility
-Club	I-other	I-facility
-March	O	I-facility
+Join	O	O
+Craft	B-other	O
+Club	I-other	O
+March	O	O
 6	O	O
 ,	O	O
 1-2pm	O	O
 in	O	O
-Stuart	B-facility	B-geo-loc
+Stuart	B-facility	O
 1103	O	O
 to	O	O
 start	O	O
@@ -39652,8 +39652,8 @@ tomorrow	O	O
 Snapchat	B-company	O
 Responds	O	O
 to	O	O
-New	B-other	O
-Year	I-other	O
+New	B-other	B-geo-loc
+Year	I-other	I-geo-loc
 's	I-other	O
 Eve	I-other	O
 Security	O	O
@@ -39762,11 +39762,11 @@ at	O	O
 AM	O	O
 Support	O	O
 the	O	O
-San	B-sportsteam	B-geo-loc
-Jose	I-sportsteam	I-geo-loc
-Earthquakes	I-sportsteam	I-geo-loc
-#NHL	O	B-sportsteam
-#Soccer	O	I-sportsteam
+San	B-sportsteam	B-other
+Jose	I-sportsteam	I-other
+Earthquakes	I-sportsteam	I-other
+#NHL	O	I-other
+#Soccer	O	I-other
 team	O	O
 
 Martin	B-person	B-person
@@ -39872,8 +39872,8 @@ after	O	O
 police-involved	O	O
 shooting	O	O
 in	O	O
-River	B-geo-loc	B-geo-loc
-Forest	I-geo-loc	I-geo-loc
+River	B-geo-loc	O
+Forest	I-geo-loc	O
 :	O	O
 http://abc7.ws/1CyVK0M	O	O
 pic.twitter.com/AE8FhaGclh	O	O
@@ -40233,17 +40233,17 @@ meet	O	O
 up	O	O
 #ALDUBKapitLang	O	O
 
-Controversial	O	O
-Senator	B-person	O
-Kashamu	I-person	O
-At	O	O
-The	O	O
-Inauguration	O	O
-Of	O	O
-The	O	O
-8th	B-other	O
-National	I-other	O
-Assembly	I-other	O
+Controversial	O	B-other
+Senator	B-person	I-other
+Kashamu	I-person	I-other
+At	O	I-other
+The	O	I-other
+Inauguration	O	I-other
+Of	O	I-other
+The	O	I-other
+8th	B-other	I-other
+National	I-other	I-other
+Assembly	I-other	I-other
 (	O	O
 Pics)	O	O
 :	O	O
@@ -40693,7 +40693,7 @@ RT	O	O
 @TheHowFlyBlog	O	O
 :	O	O
 Lil	B-musicartist	O
-Wayne	I-musicartist	B-person
+Wayne	I-musicartist	O
 's	O	O
 "	O	O
 Free	B-product	O
@@ -40808,7 +40808,7 @@ http://t.co/DzK2U1x3c7	O	O
 #News	O	O
 GM	O	O
 (	O	O
-15V213000	O	O
+15V213000	O	B-geo-loc
 )	O	O
 :	O	O
 Dated	O	O
@@ -40839,8 +40839,8 @@ reports	O	O
 data	O	O
 breach	O	O
 :	O	O
-The	B-company	B-person
-Landry	I-company	I-person
+The	B-company	O
+Landry	I-company	O
 's	I-company	O
 Inc	I-company	O
 .	I-company	O
@@ -41549,7 +41549,7 @@ soccer	O	O
 game	O	O
 tomorrow	O	O
 at	O	O
-Springboro	B-facility	B-facility
+Springboro	B-facility	O
 !!!!	O	O
 Kick	O	O
 off	O	O
@@ -41893,8 +41893,8 @@ SWAT	O	O
 vehicles	O	O
 corner	O	O
 apparent	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 suspects	O	O
 '	O	O
@@ -41935,9 +41935,9 @@ now	O	O
 .	O	O
 #pissed	O	O
 
-Muhammad	B-person	B-person
-Youssef	I-person	I-person
-Abdulazeez	I-person	I-person
+Muhammad	B-person	O
+Youssef	I-person	O
+Abdulazeez	I-person	O
 :	O	O
 5	O	O
 Fast	O	O
@@ -42267,8 +42267,8 @@ are	O	O
 fun	O	O
 ,	O	O
 and	O	O
-Fetty	B-musicartist	O
-Wap	I-musicartist	O
+Fetty	B-musicartist	B-person
+Wap	I-musicartist	I-person
 's	O	O
 pretty	O	O
 cool	O	O
@@ -42484,7 +42484,7 @@ af	O	O
 RT	O	O
 @1DAsiaCrew	O	O
 :	O	O
-Harry	O	B-person
+Harry	O	O
 arriving	O	O
 at	O	O
 LAX	B-facility	O
@@ -42537,7 +42537,7 @@ up	O	O
 1.6	O	O
 %	O	O
 in	O	O
-June	O	B-geo-loc
+June	O	O
 alone	O	O
 ."	O	O
 #MultiUnitMadness	O	O
@@ -42564,11 +42564,11 @@ Monday	O	O
 http://t.co/RVPvQ3lD9Y	O	O
 #trndnl	O	O
 
-Card	O	B-person
-Breach	O	I-person
+Card	O	O
+Breach	O	O
 at	O	O
-Hilton	B-company	B-geo-loc
-Hotel	I-company	I-geo-loc
+Hilton	B-company	B-facility
+Hotel	I-company	I-facility
 Properties	O	O
 Under	O	O
 Investigation	O	O
@@ -43029,7 +43029,7 @@ video	O	O
 '	O	O
 Teg	O	O
 Go	O	O
-Ham	O	B-person
+Ham	O	O
 '	O	O
 http://t.co/e94qZRqLy7	O	O
 be	O	O
@@ -43298,7 +43298,7 @@ Saturday	O	O
 for	O	O
 championship	O	O
 of	O	O
-Erie	B-geo-loc	O
+Erie	B-geo-loc	B-person
 classic	O	O
 !	O	O
 @SaukValleyMagic	O	O
@@ -43329,8 +43329,8 @@ A	I-person	O
 /	O	O
 MacKinnon	B-person	O
 ,	I-person	O
-Alison/	O	B-person
-Prentice	B-person	I-person
+Alison/	O	O
+Prentice	B-person	O
 ...	O	O
 https://t.co/xA5eYTSlac	O	O
 https://t.co/XQI3gbPlJR	O	O
@@ -43502,9 +43502,9 @@ tiroteo	O	O
 en	O	O
 #Reynosafollow	O	O
 altura	O	O
-Smart	O	B-person
-Villas	O	I-person
-Diamante	O	I-person
+Smart	O	O
+Villas	O	O
+Diamante	O	O
 
 @null	O	O
 Hari	O	O
@@ -43512,13 +43512,13 @@ ini	O	O
 hari	O	O
 Rabu	O	O
 ,	O	O
-Tanggal	O	B-other
-01	O	I-other
-Bulan	O	I-other
-April	O	I-other
-Tahun	O	I-other
-2015	O	I-other
-Jam	O	I-other
+Tanggal	O	O
+01	O	O
+Bulan	O	O
+April	O	O
+Tahun	O	O
+2015	O	O
+Jam	O	O
 04:18	O	O
 :	O	O
 16	O	O
@@ -43555,8 +43555,8 @@ for	O	O
 Security	O	O
 Breach	O	O
 ,	O	O
-Releases	O	O
-Fix	O	O
+Releases	O	B-person
+Fix	O	I-person
 :	O	O
 Snapchat	B-company	O
 released	O	O
@@ -43690,7 +43690,7 @@ News	I-company	O
 :	O	O
 New	B-company	B-geo-loc
 York	I-company	I-geo-loc
-Daily	I-company	I-geo-loc
+Daily	I-company	O
 News2	O	O
 Killed	O	O
 ,	O	O
@@ -43782,7 +43782,7 @@ RT	O	O
 :	O	O
 Queen	B-musicartist	O
 of	I-musicartist	O
-Peace	I-musicartist	B-person
+Peace	I-musicartist	O
 .	O	O
 Tomorrow	O	O
 ...	O	O
@@ -44006,7 +44006,7 @@ http://t.co/STUjurtJre	O	O
 RT	O	O
 @Jithosh_offl	O	O
 :	O	O
-Jadeja	B-person	O
+Jadeja	B-person	B-person
 on	O	O
 fire	O	O
 4th	O	O
@@ -44174,8 +44174,8 @@ in	O	O
 race	O	O
 7	O	O
 at	O	O
-Goulburn	B-other	B-facility
-Races	I-other	I-facility
+Goulburn	B-other	B-geo-loc
+Races	I-other	I-geo-loc
 on	O	O
 Tuesday	O	O
 4	O	O
@@ -44284,9 +44284,9 @@ the	O	O
 game	O	O
 live	O	O
 from	O	O
-Japan	B-geo-loc	O
+Japan	B-geo-loc	B-geo-loc
 ...	O	O
-Savage	O	O
+Savage	O	B-person
 .	O	O
 
 My	O	O
@@ -44455,8 +44455,8 @@ coffee	O	O
 a	O	O
 smoothie	O	O
 ,	O	O
-green	O	B-person
-tea	O	I-person
+green	O	B-musicartist
+tea	O	I-musicartist
 ,	O	O
 or	O	O
 hot	O	O
@@ -44498,7 +44498,7 @@ night	O	O
 RT	O	O
 @RelatableQuote	O	O
 :	O	O
-Troy	B-person	B-person
+Troy	B-person	O
 represents	O	O
 my	O	O
 bed	O	O
@@ -44560,7 +44560,7 @@ would've	O	O
 done	O	O
 well	O	O
 in	O	O
-Indy	B-geo-loc	O
+Indy	B-geo-loc	B-geo-loc
 
 We	O	O
 have	O	O
@@ -44872,8 +44872,8 @@ April	O	O
 year	O	O
 anniversary	O	O
 of	O	O
-Albert	B-person	B-person
-Einstein	I-person	I-person
+Albert	B-person	B-company
+Einstein	I-person	I-company
 's	O	O
 death	O	O
 .	O	O
@@ -44971,8 +44971,8 @@ for	O	O
 Security	O	O
 Breach	O	O
 ,	O	O
-Releases	O	O
-Fix	O	O
+Releases	O	B-person
+Fix	O	I-person
 
 RT	O	O
 @ZeeTVTelugu	O	O
@@ -45036,7 +45036,7 @@ Bernie	B-person	B-person
 Sanders	I-person	I-person
 campaign	O	O
 following	O	O
-Clinton	B-person	B-geo-loc
+Clinton	B-person	B-person
 data	O	O
 breach	O	O
 http://bit.ly/1UHtrBU	O	O
@@ -45135,13 +45135,13 @@ ini	O	O
 hari	O	O
 Selasa	O	O
 ,	O	O
-Tanggal	O	B-other
-14	O	I-other
-Bulan	O	I-other
-April	O	I-other
-Tahun	O	I-other
-2015	O	I-other
-Jam	O	I-other
+Tanggal	O	O
+14	O	O
+Bulan	O	O
+April	O	O
+Tahun	O	O
+2015	O	O
+Jam	O	O
 16:01	O	O
 :	O	O
 03	O	O
@@ -45390,10 +45390,10 @@ LAPD	B-other	O
 Commander	O	O
 dispatched	O	O
 to	O	O
-Santa	B-facility	B-geo-loc
-Monica	I-facility	I-geo-loc
-College	I-facility	O
-Shooting	O	O
+Santa	B-facility	B-facility
+Monica	I-facility	I-facility
+College	I-facility	I-facility
+Shooting	O	I-facility
 .	O	O
 
 Under	O	O
@@ -45575,7 +45575,7 @@ for	O	O
 winning	O	O
 the	O	O
 UK	B-other	B-geo-loc
-Champion	I-other	I-geo-loc
+Champion	I-other	O
 Flat	I-other	O
 Owner	I-other	O
 award	I-other	O
@@ -45655,8 +45655,8 @@ AD	O	O
 at	O	O
 Paradym	B-facility	B-facility
 Group/Eagle	I-facility	I-facility
-Eye	I-facility	O
-Ent	I-facility	O
+Eye	I-facility	I-facility
+Ent	I-facility	I-facility
 .,	O	O
 Los	B-geo-loc	O
 Angeles	I-geo-loc	O
@@ -45681,9 +45681,9 @@ employee	O	O
 data	O	O
 breach	O	O
 -	O	O
-The	B-company	O
-Washington	I-company	B-geo-loc
-Post	I-company	I-geo-loc
+The	B-company	B-person
+Washington	I-company	I-person
+Post	I-company	I-person
 #CyberTrainingEssentialhttps	O	O
 :/	O	O
 /	O	O
@@ -45830,7 +45830,7 @@ US	B-geo-loc	O
 licensing	O	O
 deal	O	O
 with	O	O
-Naxos	B-company	O
+Naxos	B-company	B-person
 (	O	O
 Feb	O	O
 13	O	O
@@ -45939,9 +45939,9 @@ http://bit.ly/1iltQXS	O	O
 Seven	O	O
 shot	O	O
 at	O	O
-Mr	B-facility	O
-.	I-facility	O
-G	I-facility	O
+Mr	B-facility	B-person
+.	I-facility	I-person
+G	I-facility	I-person
 's	I-facility	O
 club	I-facility	O
 in	O	O
@@ -46032,8 +46032,8 @@ DAY	O	O
 
 RT	O	O
 @ReutersGraphics	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 :	O	O
 pic.twitter.com/37P3OPOrMV	O	O
@@ -46268,10 +46268,10 @@ RT	O	O
 @LanaDelRey	O	O
 :	O	O
 '	O	O
-High	B-product	B-movie
-By	I-product	I-movie
-The	I-product	I-movie
-Beach	I-product	I-movie
+High	B-product	O
+By	I-product	O
+The	I-product	O
+Beach	I-product	O
 '	O	O
 Coming	O	O
 August	O	O
@@ -46414,8 +46414,8 @@ Saturday	O	O
 lol	O	O
 
 The	B-product	O
-Owen	I-product	B-person
-Hart	I-product	I-person
+Owen	I-product	O
+Hart	I-product	O
 DVD	I-product	O
 to	O	O
 be	O	O
@@ -46524,8 +46524,8 @@ Manchester	B-sportsteam	O
 United	I-sportsteam	O
 player	O	O
 ,	O	O
-Jaap	B-person	O
-Stam	I-person	O
+Jaap	B-person	B-person
+Stam	I-person	I-person
 (	O	O
 17th	O	O
 July	O	O
@@ -46546,8 +46546,8 @@ September	O	O
 ,	O	O
 2013	O	O
 .	O	O
-Emmy	B-other	B-person
-Awards	I-other	I-person
+Emmy	B-other	O
+Awards	I-other	O
 .	O	O
 @NathanFillion	O	O
 https://t.co/CXUDiaGqiP	O	O
@@ -46672,7 +46672,7 @@ Mukhang	O	O
 yung	O	O
 nabangga	O	O
 si	O	O
-Alden	O	B-person
+Alden	O	O
 ah	O	O
 ...	O	O
 taz	O	O
@@ -47128,7 +47128,7 @@ released	O	O
 next	O	O
 month	O	O
 .	O	O
-England	B-sportsteam	B-person
+England	B-sportsteam	O
 back	O	O
 as	O	O
 best	O	O
@@ -47411,8 +47411,8 @@ dive	O	O
 from	O	O
 me	O	O
 @	O	O
-Jan	O	B-facility
-Juc	O	I-facility
+Jan	O	B-person
+Juc	O	I-person
 https://t.co/9bRHz4PzYA	O	O
 
 @DomCajayon	O	O
@@ -47425,17 +47425,17 @@ place	O	O
 niyan	O	O
 
 2x	O	O
-White	O	B-person
-6000K	O	I-person
+White	O	O
+6000K	O	O
 LED	O	O
 T10	O	O
 921	O	O
 168	O	O
-Upper	O	B-facility
-Center	O	I-facility
-High	O	I-facility
-Mount	O	I-facility
-Stop	O	I-facility
+Upper	O	O
+Center	O	O
+High	O	B-person
+Mount	O	I-person
+Stop	O	O
 3rd	O	O
 Brake	O	O
 Light	O	O
@@ -47483,7 +47483,7 @@ in	O	O
 the	O	O
 album	O	O
 "	O	O
-Lachlan	B-person	O
+Lachlan	B-person	B-person
 's	O	O
 5th	O	O
 Birthday	O	O
@@ -47678,11 +47678,11 @@ http://securityaffairs.co/wordpress/46085/data-breach/anonymous-philippines-data
 …	O	O
 
 1923	B-product	O
-S	I-product	B-person
-Silver	I-product	I-person
+S	I-product	O
+Silver	I-product	O
 $1	I-product	O
-Peace	I-product	B-person
-Dollar	I-product	I-person
+Peace	I-product	O
+Dollar	I-product	O
 AU	I-product	O
 May	O	O
 Have	O	O
@@ -47737,7 +47737,7 @@ friend	O	O
 Kwon	B-person	O
 Jun	I-person	O
 and	O	O
-Sehun	B-person	O
+Sehun	B-person	B-person
 's	O	O
 friend	O	O
 (	O	O
@@ -47938,7 +47938,7 @@ up	O	O
 Spaces	O	O
 available	O	O
 from	O	O
-April	O	B-geo-loc
+April	O	O
 contact	O	O
 http://t.co/PJcT4nwbCu	O	O
 to	O	O
@@ -48433,7 +48433,7 @@ dreams	O	O
 be	O	O
 filled	O	O
 with	O	O
-Skylines	O	B-product
+Skylines	O	B-person
 ...	O	O
 http://t.co/Qcj6tp0ChQ	O	O
 
@@ -48634,8 +48634,8 @@ news	O	O
 
 miaminewsnow	O	O
 :	O	O
-Rick	B-person	B-person
-Case	I-person	I-person
+Rick	B-person	O
+Case	I-person	O
 celebrates	O	O
 opening	O	O
 of	O	O
@@ -48701,7 +48701,7 @@ http://t.co/VsGsFojepr	O	O
 
 [#MadisonWeather]	O	O
 ,	O	O
-#Madison	B-geo-loc	O
+#Madison	B-geo-loc	B-person
 weather	O	O
 March	O	O
 26	O	O
@@ -48765,7 +48765,7 @@ shot	O	O
 Affects	O	O
 @Twitter	O	O
 ,	O	O
-@Tumblr	O	B-company
+@Tumblr	O	O
 and	O	O
 @Pinterest	O	O
 http://bit.ly/15AeDNc	O	O
@@ -48802,7 +48802,7 @@ to	O	O
 welcome	O	O
 Bishop	B-person	B-person
 Richard	I-person	I-person
-Isindu	I-person	I-person
+Isindu	I-person	O
 -	O	O
 #RIOAfrica	O	O
 during	O	O
@@ -48841,8 +48841,8 @@ http://t.co/Cc0ygS9HCd	O	O
 Snapchat	B-company	O
 Responds	O	O
 to	O	O
-New	B-other	O
-Year	I-other	O
+New	B-other	B-geo-loc
+Year	I-other	I-geo-loc
 's	I-other	O
 Eve	I-other	O
 Security	O	O
@@ -49214,8 +49214,8 @@ Celebrates	O	I-facility
 20th	O	O
 Anniversary	O	O
 Of	O	O
-The	O	O
-X-Files	O	O
+The	O	B-tvshow
+X-Files	O	I-tvshow
 -	O	O
 Comic-Con	O	O
 International	O	O
@@ -49266,8 +49266,8 @@ Limerick	B-other	O
 County	I-other	O
 Matters	I-other	O
 on	O	O
-Irish	O	B-person
-TV	O	I-person
+Irish	O	B-other
+TV	O	I-other
 -	O	O
 SKY	B-company	B-other
 Channel	I-company	I-other
@@ -49319,8 +49319,8 @@ practice	O	O
 http://www.farminguk.com/News/Retailers-face-anonymous-complaints-if-they-breach-grocery-code-of-practice_30030.html#.U3QS0J2-qRQ.twitter	O	O
 …	O	O
 
-Jeff	B-person	B-person
-Samardzija	I-person	I-person
+Jeff	B-person	O
+Samardzija	I-person	O
 wins	O	O
 honor	O	O
 of	O	O
@@ -49336,8 +49336,8 @@ http://t.co/JpA1QjWR9X	O	O
 
 Police	O	O
 investigate	O	O
-South	B-geo-loc	B-person
-Linden	I-geo-loc	I-person
+South	B-geo-loc	O
+Linden	I-geo-loc	O
 incident	O	O
 where	O	O
 5	O	O
@@ -49346,7 +49346,7 @@ shot	O	O
 4	O	O
 dead	O	O
 :	O	O
-Columbus	B-geo-loc	B-person
+Columbus	B-geo-loc	O
 police	O	O
 are	O	O
 investigating	O	O
@@ -49832,13 +49832,13 @@ Congress	I-other	I-facility
 '	O	O
 Event	O	O
 on	O	O
-Mitigating	O	O
-Risk	O	O
-of	O	O
-Health	O	O
-Care	O	O
-Data	O	O
-Breaches	O	O
+Mitigating	O	B-other
+Risk	O	I-other
+of	O	I-other
+Health	O	I-other
+Care	O	I-other
+Data	O	I-other
+Breaches	O	I-other
 http://bit.ly/XGUQWB	O	O
 
 CIA	B-other	O
@@ -49883,16 +49883,16 @@ for	O	O
 every	O	O
 Tuesday	O	O
 -	O	O
-Allahumma	O	B-other
-Solli	O	I-other
-'	O	I-other
-Alaa	O	I-other
-Muhammad	B-person	I-other
-Wa	O	I-other
-'	O	I-other
-Alaa	O	I-other
-Aalihii	O	I-other
-Muhammad	B-person	I-other
+Allahumma	O	O
+Solli	O	O
+'	O	O
+Alaa	O	O
+Muhammad	B-person	O
+Wa	O	O
+'	O	O
+Alaa	O	O
+Aalihii	O	O
+Muhammad	B-person	O
 (	O	O
 1000	O	O
 times	O	O
@@ -49929,7 +49929,7 @@ Department	O	O
 Assistant	O	O
 Manager	O	O
 -	O	O
-Metairie	O	O
+Metairie	O	B-person
 ,	O	O
 Louisiana	O	B-person
 Dorignac	O	I-person
@@ -50164,7 +50164,7 @@ released	O	O
 years	O	O
 since	O	O
 and	O	O
-Apple	B-company	B-person
+Apple	B-company	O
 hasn't	O	O
 been	O	O
 able	O	O
@@ -50182,8 +50182,8 @@ RT	O	O
 STATE	O	O
 QUARTERFINALS	O	O
 :	O	O
-Lake	B-sportsteam	B-person
-Ridge	I-sportsteam	I-person
+Lake	B-sportsteam	O
+Ridge	I-sportsteam	O
 Eagles	I-sportsteam	B-sportsteam
 vs	O	O
 Longview	B-sportsteam	O
@@ -50440,8 +50440,8 @@ g	O	O
 
 Check	O	O
 out	O	O
-SCOTTY	B-product	O
-CAMERON	I-product	O
+SCOTTY	B-product	B-person
+CAMERON	I-product	I-person
 FUTURA	I-product	O
 X	I-product	O
 PUTTER	I-product	O
@@ -50459,8 +50459,8 @@ worth	O	O
 a	O	O
 watch	O	O
 
-Arthur	B-person	B-person
-Ray	I-person	I-person
+Arthur	B-person	O
+Ray	I-person	B-person
 Bruton	I-person	I-person
 ,	O	O
 80	O	O
@@ -50505,8 +50505,8 @@ by	O	O
 Snapchat	B-company	O
 Responds	O	O
 to	O	O
-New	B-other	O
-Year	I-other	O
+New	B-other	B-geo-loc
+Year	I-other	I-geo-loc
 's	I-other	O
 Eve	I-other	O
 Security	O	O
@@ -50713,8 +50713,8 @@ NEWS	O	O
 Senator	B-person	O
 Inhofe	I-person	O
 on	O	O
-Fort	B-facility	B-person
-Hood	I-facility	I-person
+Fort	B-facility	B-company
+Hood	I-facility	I-company
 shooting	O	O
 incident	O	O
 :	O	O
@@ -50832,14 +50832,14 @@ PM	O	O
 .	O	O
 Today	O	O
 's	O	O
-Bible	B-product	B-person
+Bible	B-product	O
 exposition	O	O
 is	O	O
 on	O	O
 the	O	O
 book	O	O
 of	O	O
-Genesis	B-other	B-person
+Genesis	B-other	O
 34	O	O
 .	O	O
 #Inlaws	O	O
@@ -50950,8 +50950,8 @@ Selena	B-person	B-person
 Gomez	I-person	I-person
 Favourite	O	O
 for	O	O
-Vanessa	B-person	B-person
-Hudgens	I-person	I-person
+Vanessa	B-person	B-sportsteam
+Hudgens	I-person	I-sportsteam
 http://t.co/5FTWPiJDp9	O	O
 
 So	O	O
@@ -50988,7 +50988,7 @@ is	O	O
 coming	O	O
 to	O	O
 Xbox	B-product	B-product
-One	I-product	I-product
+One	I-product	O
 in	O	O
 February	O	O
 :	O	O
@@ -51180,9 +51180,9 @@ LIVE	O	I-facility
 and	O	O
 FREE	O	O
 |	O	O
-Sun	O	B-person
-.	O	I-person
-Jan	O	I-person
+Sun	O	O
+.	O	O
+Jan	O	O
 .	O	O
 17	O	O
 on	O	O
@@ -51373,8 +51373,8 @@ serious	O	O
 condition	O	O
 ,	O	O
 Miami	B-other	B-geo-loc
-Fire	I-other	O
-Rescue	I-other	O
+Fire	I-other	I-geo-loc
+Rescue	I-other	I-geo-loc
 spokesman	O	O
 Lt	B-person	O
 .	I-person	O
@@ -51691,7 +51691,7 @@ Train	O	I-facility
 Amp	O	I-facility
 in	O	O
 Wheatland	O	B-geo-loc
-CA	O	O
+CA	O	I-geo-loc
 #LadyAntebellum	O	O
 #WheelsUpTour	O	O
 
@@ -52491,7 +52491,7 @@ On	B-tvshow	O
 The	I-tvshow	O
 Wings	I-tvshow	O
 of	I-tvshow	O
-Love	I-tvshow	B-person
+Love	I-tvshow	O
 will	O	O
 air	O	O
 August	O	O
@@ -52543,8 +52543,8 @@ Mesa	B-geo-loc	B-person
 Arizona	B-geo-loc	B-geo-loc
 Shooting	O	O
 :	O	O
-Six	O	O
-Shot	O	O
+Six	O	B-person
+Shot	O	I-person
 ,	O	O
 One	O	O
 Dead	O	O
@@ -52785,9 +52785,9 @@ will	O	O
 be	O	O
 attending	O	O
 the	O	O
-Colorado	B-other	O
-Energy	I-other	O
-Expo	I-other	O
+Colorado	B-other	B-other
+Energy	I-other	I-other
+Expo	I-other	I-other
 !	O	O
 Join	O	O
 us	O	O
@@ -52880,8 +52880,8 @@ people	O	O
 found	O	O
 on	O	O
 the	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 .	O	O
 
@@ -53165,7 +53165,7 @@ in	O	O
 an	O	O
 ep	O	O
 of	O	O
-Law	B-tvshow	B-person
+Law	B-tvshow	O
 &amp;	I-tvshow	O
 Order	I-tvshow	O
 SVU	I-tvshow	O
@@ -53195,8 +53195,8 @@ on	O	O
 #I95	B-geo-loc	B-other
 SB	O	I-other
 from	O	O
-Rosedale	B-geo-loc	O
-Avenue	I-geo-loc	O
+Rosedale	B-geo-loc	B-geo-loc
+Avenue	I-geo-loc	I-geo-loc
 ;	O	O
 Ramp	O	O
 to	O	O
@@ -53603,7 +53603,7 @@ the	O	O
 2nd	O	O
 Q	O	O
 after	O	O
-Lin	B-person	B-person
+Lin	B-person	O
 came	O	O
 in	O	O
 .	O	O
@@ -53640,8 +53640,8 @@ again	O	O
 
 After	O	O
 the	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 Shooting	O	O
 ,	O	O
 Three	O	O
@@ -53790,10 +53790,10 @@ Tweet	O	O
 #PushAwardsKathNiels	O	O
 https://t.co/WwLYQ1whHB	O	O
 
-K-POP	O	O
-On	O	O
-The	O	O
-Street	O	O
+K-POP	O	B-other
+On	O	I-other
+The	O	I-other
+Street	O	I-other
 by	O	O
 D'Bronist	B-musicartist	O
 Famz	I-musicartist	O
@@ -54160,7 +54160,7 @@ bid	O	O
 falls	O	O
 short	O	O
 against	O	O
-Kansas	O	O
+Kansas	O	B-geo-loc
 :	O	O
 For	O	O
 a	O	O
@@ -54263,7 +54263,7 @@ shootout	O	O
 in	O	O
 Waco	B-geo-loc	B-geo-loc
 ,	O	O
-Tex	B-geo-loc	O
+Tex	B-geo-loc	B-person
 .	I-geo-loc	O
 Where	O	O
 are	O	O
@@ -54292,7 +54292,7 @@ album	O	O
 "	O	O
 October	O	O
 -	O	O
-Women	O	O
+Women	O	B-person
 's	O	O
 month	O	O
 "	O	O
@@ -54438,8 +54438,8 @@ Jam	O	O
 Going	O	O
 to	O	O
 watch	O	O
-American	B-movie	B-tvshow
-Sniper	I-movie	I-tvshow
+American	B-movie	B-person
+Sniper	I-movie	I-person
 tonight	O	O
 for	O	O
 the	O	O
@@ -54497,7 +54497,7 @@ https://t.co/fdttm8J2T2	O	O
 
 PAPERS	O	O
 :	O	O
-Coleman	B-person	B-person
+Coleman	B-person	O
 discusses	O	O
 Euro	B-other	O
 2016	I-other	O
@@ -54645,9 +54645,9 @@ Jupiter	B-other	O
 Homing	O	O
 in	O	O
 on	O	O
-Venus	B-other	B-person
-Through	O	I-person
-June	O	I-person
+Venus	B-other	B-other
+Through	O	I-other
+June	O	I-other
 http://t.co/4N6OW2p4yL	O	O
 
 I	O	O
@@ -54808,7 +54808,7 @@ https://t.co/uKIjIyYPm9	O	O
 Shooting	O	O
 rampage	O	O
 in	O	O
-Tennessee	B-geo-loc	O
+Tennessee	B-geo-loc	B-geo-loc
 leaves	O	O
 4	O	O
 Marines	O	O
@@ -54816,8 +54816,8 @@ dead	O	O
 http://feeds.mashable.com/~r/Mashable/~3/vnZcg2Xxr50/	O	O
 …	O	O
 Four	O	O
-U.S.	O	O
-Marines	O	O
+U.S.	O	B-musicartist
+Marines	O	I-musicartist
 are	O	O
 believed	O	O
 dead	O	O
@@ -55101,7 +55101,7 @@ place	O	O
 NEXT	O	O
 UP	O	O
 !	O	O
-Bey	B-musicartist	B-person
+Bey	B-musicartist	O
 -	O	O
 2,127,383	O	O
 173k	O	O
@@ -55697,8 +55697,8 @@ this	O	O
 https://t.co/Srl7EYEPQg	O	O
 #link	O	O
 
-Jean	B-person	B-person
-Geoffroy	I-person	I-person
+Jean	B-person	O
+Geoffroy	I-person	O
 joue	I-person	O
 Bach	I-person	O
 (	O	O
@@ -55725,7 +55725,7 @@ have	O	O
 a	O	O
 medical	O	O
 at	O	O
-Brentford	B-facility	O
+Brentford	B-facility	B-facility
 on	O	O
 Friday	O	O
 and	O	O
@@ -55792,7 +55792,7 @@ RT	O	O
 I	O	O
 REBLOGGED	O	O
 ON	O	O
-TUMBLR	B-company	O
+TUMBLR	B-company	B-company
 AND	O	O
 GOT	O	O
 THIS	O	O
@@ -55979,8 +55979,8 @@ Feminista	O	O
 Jones**	O	O
 |	O	O
 :	O	O
-Feminista	O	B-geo-loc
-Jones	O	I-geo-loc
+Feminista	O	O
+Jones	O	O
 at	O	O
 @WoodhullSFA	O	O
 August	O	O
@@ -56052,7 +56052,7 @@ c'mon	O	O
 touched	O	O
 my	O	O
 heart	O	O
-Tim	B-person	B-person
+Tim	B-person	O
 .	O	O
 Prayers	O	O
 4	O	O
@@ -56076,8 +56076,8 @@ every	O	O
 day	O	O
 .	O	O
 
-Movie	O	O
-Alert	O	O
+Movie	O	B-person
+Alert	O	I-person
 -	O	O
 IF	B-movie	O
 TOMORROW	I-movie	O
@@ -56400,7 +56400,7 @@ the	O	O
 5th	O	O
 album	O	O
 and	O	O
-Lilo	B-person	O
+Lilo	B-person	B-person
 is	O	O
 giving	O	O
 us	O	O
@@ -56838,7 +56838,7 @@ RT	O	O
 The	O	O
 Salvatore	B-person	O
 and	O	O
-Mikaelson	B-person	O
+Mikaelson	B-person	B-person
 brothers	O	O
 are	O	O
 reunited	O	O
@@ -57040,8 +57040,8 @@ ALERT	O	O
 FBI	B-other	O
 warns	O	O
 Time	B-company	O
-Warner	I-company	B-person
-Cable	I-company	I-person
+Warner	I-company	O
+Cable	I-company	O
 of	O	O
 potential	O	O
 data	O	O
@@ -57261,7 +57261,7 @@ alasan	O	O
 mengapa	O	O
 ia	O	O
 memilih	O	O
-Bradley	O	B-person
+Bradley	O	O
 lagi	O	O
 sebagai	O	O
 lawan	O	O
@@ -57324,8 +57324,8 @@ Franklin	B-geo-loc	B-person
 on	I-geo-loc	O
 13th	I-geo-loc	O
 and	I-geo-loc	O
-K	I-geo-loc	O
-NW	I-geo-loc	O
+K	I-geo-loc	B-person
+NW	I-geo-loc	I-person
 and	O	O
 Georgetown	B-geo-loc	O
 on	I-geo-loc	O
@@ -57682,8 +57682,8 @@ Del	I-person	I-person
 Rio	I-person	O
 :	O	O
 WWE	B-other	O
-Main	O	B-person
-Event	O	I-person
+Main	O	O
+Event	O	O
 ,	O	O
 Aug	O	O
 .	O	O
@@ -57718,11 +57718,11 @@ RT	O	O
 @TOMIHO5World	O	O
 :	O	O
 ToMiho	O	O
-palang	O	B-other
-Busog	O	I-other
-na	O	I-other
-Busog	O	I-other
-na	O	I-other
+palang	O	O
+Busog	O	O
+na	O	O
+Busog	O	O
+na	O	O
 ako	O	O
 how	O	O
 much	O	O
@@ -58057,10 +58057,10 @@ Important	O	O
 notice	O	O
 from	O	O
 the	O	O
-CEO	O	O
-of	O	O
-JD	B-company	O
-Wetherspoon	I-company	O
+CEO	O	B-other
+of	O	I-other
+JD	B-company	I-other
+Wetherspoon	I-company	I-other
 re	O	O
 data	O	O
 breach	O	O
@@ -58445,14 +58445,14 @@ NORMAL	O	O
 #Greferendum	O	O
 
 @null	O	O
-Kapal	O	O
-Angkutan	O	O
-Barang	O	O
-Tenggelam	O	O
-di	O	O
-Sungai	O	O
-Siak	O	O
-Pekanbaru	O	O
+Kapal	O	B-other
+Angkutan	O	I-other
+Barang	O	I-other
+Tenggelam	O	I-other
+di	O	I-other
+Sungai	O	I-other
+Siak	O	I-other
+Pekanbaru	O	I-other
 :	O	O
 Kapal	O	O
 Motor	O	O
@@ -58555,19 +58555,19 @@ Bailey	B-musicartist	O
 Thomas	I-musicartist	B-other
 May	I-musicartist	I-other
 Bailey	B-musicartist	I-other
-Thomas	I-musicartist	B-other
+Thomas	I-musicartist	I-other
 May	I-musicartist	I-other
 Bailey	B-musicartist	I-other
-Thomas	I-musicartist	B-other
+Thomas	I-musicartist	I-other
 May	I-musicartist	I-other
 Bailey	B-musicartist	I-other
-Thomas	I-musicartist	B-other
+Thomas	I-musicartist	I-other
 May	I-musicartist	I-other
 Bailey	B-musicartist	I-other
-Thomas	I-musicartist	B-other
+Thomas	I-musicartist	I-other
 May	I-musicartist	I-other
 Bailey	B-musicartist	I-other
-Thomas	I-musicartist	B-other
+Thomas	I-musicartist	I-other
 May	I-musicartist	I-other
 @imbaileymay	O	O
 eighty	O	O
@@ -58608,8 +58608,8 @@ used	O	O
 to	O	O
 sing	O	O
 at	O	O
-Willow	B-facility	B-facility
-Creek	I-facility	I-facility
+Willow	B-facility	O
+Creek	I-facility	O
 every	O	O
 Sunday	O	O
 ,	O	O
@@ -58708,10 +58708,10 @@ war	O	O
 #rejoice	O	O
 #Victory	O	O
 
-Time	B-company	O
-Warner	I-company	B-person
-Cable	I-company	I-person
-320K+	O	I-person
+Time	B-company	B-company
+Warner	I-company	I-company
+Cable	I-company	I-company
+320K+	O	I-company
 customer	O	O
 emails	O	O
 possibly	O	O
@@ -58753,8 +58753,8 @@ Butler	I-geo-loc	I-person
 Shooting	O	O
 :	O	O
 Gunman	O	O
-Hubert	B-person	B-person
-Allen	I-person	I-person
+Hubert	B-person	O
+Allen	I-person	O
 Jr	I-person	O
 .	I-person	O
 Kills	O	O
@@ -58970,7 +58970,7 @@ staff	O	O
 )	O	O
 in	O	O
 Marysville	B-facility	B-geo-loc
-Pilchuck	I-facility	O
+Pilchuck	I-facility	I-geo-loc
 HS	I-facility	O
 shooting	O	O
 .	O	O
@@ -59133,7 +59133,7 @@ Reports	O	O
 Dead	O	O
 in	O	O
 Navy	O	B-geo-loc
-Yard	O	O
+Yard	O	I-geo-loc
 Shooting	O	O
 ;	O	O
 Suspect	O	O
@@ -59570,8 +59570,8 @@ FRIDAY	O	O
 !!	O	O
 https://t.co/H797XW66WV	O	O
 
-Troy	B-musicartist	B-person
-Ave	I-musicartist	I-person
+Troy	B-musicartist	O
+Ave	I-musicartist	O
 -	O	O
 June	O	O
 5th	O	O
@@ -59980,7 +59980,7 @@ be	O	O
 diff	O	O
 .	O	O
 if	O	O
-Yoko	B-person	B-person
+Yoko	B-person	O
 had	O	O
 fallen	O	O
 for	O	O
@@ -59991,8 +59991,8 @@ https://t.co/W30BRSEisu	O	O
 EDM	O	O
 BEAST	O	O
 NEWS	O	O
-Alison	B-person	B-person
-Brie	I-person	I-person
+Alison	B-person	O
+Brie	I-person	O
 -	O	O
 At	O	O
 the	O	O
@@ -60105,7 +60105,7 @@ in	O	O
 Las	B-geo-loc	B-geo-loc
 Vegas	I-geo-loc	I-geo-loc
 ,	O	O
-Nevada	B-geo-loc	B-person
+Nevada	B-geo-loc	B-geo-loc
 -	O	O
 December	O	O
 31	O	O
@@ -60549,9 +60549,9 @@ Growing	O	O
 with	O	O
 https://t.co/7IoMnALdV9	O	O
 
-Amazon	B-product	O
-Kindle	I-product	O
-Fire	I-product	O
+Amazon	B-product	B-company
+Kindle	I-product	I-company
+Fire	I-product	I-company
 1st	I-product	O
 Generation	I-product	O
 8GB	I-product	O
@@ -60758,10 +60758,10 @@ RT	O	O
 @LanaDelRey	O	O
 :	O	O
 '	O	O
-High	B-product	B-movie
-By	I-product	I-movie
-The	I-product	I-movie
-Beach	I-product	I-movie
+High	B-product	O
+By	I-product	O
+The	I-product	O
+Beach	I-product	O
 '	O	O
 Coming	O	O
 August	O	O
@@ -61533,7 +61533,7 @@ to	O	O
 take	O	O
 Taylor	B-person	B-person
 to	O	O
-Disney	B-facility	O
+Disney	B-facility	B-geo-loc
 in	O	O
 March	O	O
 because	O	O
@@ -61589,8 +61589,8 @@ those	O	O
 affected	O	O
 by	O	O
 the	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 .	O	O
 
@@ -61808,8 +61808,8 @@ the	O	O
 victims	O	O
 of	O	O
 the	O	O
-San	B-geo-loc	O
-Bernardino	I-geo-loc	O
+San	B-geo-loc	B-geo-loc
+Bernardino	I-geo-loc	I-geo-loc
 shooting	O	O
 ,	O	O
 can't	O	O
@@ -61903,9 +61903,9 @@ For	I-product	O
 The	I-product	O
 Dead	I-product	O
 -	O	O
-Boards	B-musicartist	B-other
-of	I-musicartist	I-other
-Canada	I-musicartist	I-other
+Boards	B-musicartist	O
+of	I-musicartist	O
+Canada	I-musicartist	B-geo-loc
 -	O	O
 Tomorrow	B-product	O
 's	I-product	O
@@ -62245,13 +62245,13 @@ ini	O	O
 hari	O	O
 Selasa	O	O
 ,	O	O
-Tanggal	O	B-other
-07	O	I-other
-Bulan	O	I-other
-April	O	I-other
-Tahun	O	I-other
-2015	O	I-other
-Jam	O	I-other
+Tanggal	O	O
+07	O	O
+Bulan	O	O
+April	O	O
+Tahun	O	O
+2015	O	O
+Jam	O	O
 08:22	O	O
 :	O	O
 55	O	O
@@ -62480,7 +62480,7 @@ since	O	O
 December	O	O
 28	O	O
 vs	O	O
-Southampton	B-sportsteam	O
+Southampton	B-sportsteam	B-geo-loc
 .	O	O
 Rarity	O	O
 .	O	O
@@ -62514,7 +62514,7 @@ Reported	O	O
 in	O	O
 Washington	B-facility	B-geo-loc
 Navy	I-facility	I-geo-loc
-Yard	I-facility	O
+Yard	I-facility	I-geo-loc
 Shooting	O	O
 :	O	O
 A	O	O
@@ -62536,7 +62536,7 @@ RT	O	O
 -	O	O
 Sunday	O	O
 12th	O	O
-April	O	B-person
+April	O	O
 ,	O	O
 Embankment	O	O
 Twickenham	B-geo-loc	O
@@ -62689,8 +62689,8 @@ K	B-musicartist	O
 .	I-musicartist	O
 Curtiz	I-musicartist	O
 -	O	O
-Marry	B-product	B-person
-Me	I-product	I-person
+Marry	B-product	O
+Me	I-product	O
 Tomorrow	I-product	O
 -	O	O
 Download	O	O
@@ -62825,13 +62825,13 @@ ini	O	O
 hari	O	O
 Rabu	O	O
 ,	O	O
-Tanggal	O	B-other
-15	O	I-other
-Bulan	O	I-other
-April	O	I-other
-Tahun	O	I-other
-2015	O	I-other
-Jam	O	I-other
+Tanggal	O	O
+15	O	O
+Bulan	O	O
+April	O	O
+Tahun	O	O
+2015	O	O
+Jam	O	O
 00:43	O	O
 :	O	O
 03	O	O
@@ -62929,7 +62929,7 @@ Lmao	O	O
 RT	O	O
 @celtics	O	O
 :	O	O
-Houston	B-geo-loc	B-geo-loc
+Houston	B-geo-loc	B-person
 just	O	O
 came	O	O
 out	O	O
@@ -62988,8 +62988,8 @@ bless	O	O
 you	O	O
 .	O	O
 
-Kaya	O	B-person
-ka	O	I-person
+Kaya	O	O
+ka	O	O
 dinidiem	O	O
 ng	O	O
 ganyan	O	O
@@ -63063,8 +63063,8 @@ Justin	B-musicartist	B-person
 Bieber	I-musicartist	I-person
 http://t.co/infxXv8pIp	O	O
 
-Mohammad	O	B-person
-Amir	O	I-person
+Mohammad	O	O
+Amir	O	O
 has	O	O
 been	O	O
 granted	O	O
@@ -63083,7 +63083,7 @@ and	O	O
 will	O	O
 travel	O	O
 with	O	O
-Pakistan	O	O
+Pakistan	O	B-person
 side	O	O
 for	O	O
 the	O	O
@@ -63296,7 +63296,7 @@ Sept	O	O
 @	O	O
 The	B-facility	B-facility
 Qube	I-facility	I-facility
-Project	I-facility	O
+Project	I-facility	I-facility
 .	O	O
 Tickets	O	O
 &amp;	O	O
@@ -64203,8 +64203,8 @@ Four	O	O
 #Marines	O	O
 Killed	O	O
 in	O	O
-Chattanooga	B-geo-loc	O
-Shootings	O	O
+Chattanooga	B-geo-loc	B-geo-loc
+Shootings	O	I-geo-loc
 http://nyti.ms/1Ld074Q	O	O
 #ChattanoogaShooting	O	O
 
@@ -64219,8 +64219,8 @@ GOING	O	O
 TO	O	O
 BURN	O	O
 
-Navy	O	O
-Yard	O	O
+Navy	O	B-person
+Yard	O	I-person
 shooting	O	O
 leaves	O	O
 13	O	O
@@ -64491,8 +64491,8 @@ http://t.co/9yuokD0H3Y	O	O
 
 shooting	O	O
 in	O	O
-New	B-geo-loc	O
-Orleans	I-geo-loc	O
+New	B-geo-loc	B-geo-loc
+Orleans	I-geo-loc	I-geo-loc
 ..	O	O
 #PrayForNewOrleans	O	O
 pic.twitter.com/O1af3ukdAK	O	O
@@ -65088,8 +65088,8 @@ Norway	B-geo-loc	O
 .	O	O
 Photos	O	O
 by	O	O
-Vicki	B-person	B-person
-Mar	I-person	I-person
+Vicki	B-person	O
+Mar	I-person	O
 .	O	O
 http://t.co/aDMjBKFrO5	O	O
 
@@ -65254,7 +65254,7 @@ house	O	O
 
 ECS	O	O
 vs	O	O
-Houston	O	B-geo-loc
+Houston	O	B-person
 2v2	O	O
 golf	O	O
 match	O	O
@@ -65621,7 +65621,7 @@ just	O	O
 hit	O	O
 +3	O	O
 .	O	O
-Card	O	B-person
+Card	O	O
 is	O	O
 now	O	O
 final	O	O
