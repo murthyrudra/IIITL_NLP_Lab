@@ -1,5 +1,5 @@
 ipykernel
-torch==1.7.1
+torch==1.13.1
 pytorch-lightning==1.6.0
 hydra-core==1.1.0.dev5
 streamlit==0.79.0
