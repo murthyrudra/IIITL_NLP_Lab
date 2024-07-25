@@ -8,7 +8,7 @@ torchvision==0.10.0
 torchaudio==0.9.0
 scikit-learn==1.5.0
 matplotlib==3.3.4
-jupyterlab==3.2.8
+jupyterlab==3.6.7
 nltk==3.6.7
 indic-nlp-library==0.81
 seqeval==1.2.2
