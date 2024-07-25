@@ -2,7 +2,7 @@ ipykernel
 torch==2.2.0
 pytorch-lightning==1.6.0
 hydra-core==1.1.0.dev5
-streamlit==1.11.1
+streamlit==1.30.0
 transformers
 TorchCRF
 datasets
